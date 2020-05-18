@@ -9,13 +9,11 @@ author:
     affiliation: Nikon Insturments UK
     position: Advanced Imaging Specialist
     affiliation_url: https://www.microscope.healthcare.nikon.com/
-date: "`r Sys.Date()`"
+date: "2020-05-18"
 output: distill::distill_article
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+
 
 Distill is a publication format for scientific and technical writing, native to the web. 
 

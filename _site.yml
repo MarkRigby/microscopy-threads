@@ -4,9 +4,9 @@ description: |
   microscopy-threads
 output_dir: "docs"
 navbar:
-logo:
-    image: images/nikon_logo.PNG
-    href: https://www.microscope.healthcare.nikon.com/
+  logo:
+    image: images/nikon_logo.png
+  # href: https://www.microscope.healthcare.nikon.com/
   right:
     - text: "Home"
       href: index.html
