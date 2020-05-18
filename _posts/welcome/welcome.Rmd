@@ -1,10 +1,11 @@
 ---
 title: "Welcome to microscopy-threads"
 description: |
-  Welcome to our new blog, microscopy-threads. The intention is to build a repository for advances in light microsacopy, as well as some acquisition and analysis routines for NIS-Elements 
+  Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.
 author:
   - name: Mark Rigby
-    affiliation: Advanced Imagaging Specialist for Nikon Insturments UK
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
     affiliation_url: https://www.microscope.healthcare.nikon.com/
 date: 05-18-2020
 output:

@@ -2,16 +2,16 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to microscopy-threads",
-    "description": "Welcome to our new blog, microscopy-threads. We hope you enjoy \nreading what we have to say!",
+    "description": "Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Mark Rigby",
+        "url": {}
       }
     ],
     "date": "2020-05-18",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-05-18T13:39:42+01:00"
+    "last_modified": "2020-05-18T14:27:42+01:00"
   }
 ]
