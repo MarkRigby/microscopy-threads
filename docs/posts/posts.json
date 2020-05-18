@@ -13,5 +13,20 @@
     "categories": [],
     "preview": {},
     "last_modified": "2020-05-18T14:27:43+01:00"
+  },
+  {
+    "path": "posts/NIS-Elements layouts/",
+    "title": "NIS-Elements Layouts",
+    "description": "NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-18",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-05-18T14:43:40+01:00"
   }
 ]
