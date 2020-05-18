@@ -1,20 +1,5 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to microscopy-threads",
-    "description": "Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-05-18",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2020-05-18T14:27:43+01:00"
-  },
-  {
     "path": "posts/NIS-Elements layouts/",
     "title": "NIS-Elements Layouts",
     "description": "NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.",
@@ -28,5 +13,35 @@
     "categories": [],
     "preview": "posts/NIS-Elements layouts/images/nikon_logo.png",
     "last_modified": "2020-05-18T15:12:32+01:00"
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to microscopy-threads",
+    "description": "Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-18",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-05-18T15:41:26+01:00"
+  },
+  {
+    "path": "posts/NIS-Elements Ti2 pad alternative/",
+    "title": "Replacing the Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show a",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-18",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-05-18T16:11:22+01:00"
   }
 ]

@@ -1,0 +1,73 @@
+---
+title: "Alternatives to the Ti/Ti2 pad in NIS Elements"
+description: |
+ The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+The Ti2 pad has alot of information, objectives, filter cubes, shutters, diascopic light intensity, etc. However, typically users will encode the majority of this information within an optical configuration and not interact with the Ti2, expect perhaps to change the objective. This post provides an alternative solution. 
+
+```{r, layout="l-body-outset"}
+
+include_graphics("ti2_pad.png")
+
+```
+
+
+Firstly, set up the macro panel to execute commands that change the nosepiece position 
+
+```{r, layout="l-body-outset"}
+
+include_graphics("images/setup_macro_panel.png")
+
+```
+
+
+Next open the system information panel from visualisation controls, and dock below the macro panel. System information can be tailored to 
+
+
+
+The system information control window indicates the system state. You can display information about the session time, experiment time elapsed, X, Y, and Z position. I personally find having the absolute z-poisition displayed on the y-axis versus time to be extremely useful, though many other variables could be displayed instead or at the same time.
+
+
+```{r, layout="l-body-outset"}
+
+include_graphics("system_information.png")
+
+```
+
+
+The final result looks alot cleaner, and contains more useful information to the user.
+
+```{r, layout="l-body-outset"}
+
+include_graphics("images/ammended_layout.png")
+
+```
+
+
+
+
+Distill is a publication format for scientific and technical writing, native to the web. 
+
+Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
+
+
+
+
+
