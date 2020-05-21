@@ -7,7 +7,7 @@ author:
     affiliation: Nikon Insturments UK
     position: Advanced Imaging Specialist
     affiliation_url: https://www.microscope.healthcare.nikon.com/
-  
+preview: images/system_information.png
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -24,7 +24,7 @@ The Ti2 pad has alot of information, objectives, filter cubes, shutters, diascop
 
 ```{r, layout="l-body-outset"}
 
-include_graphics("ti2_pad.png")
+include_graphics("images/tipad.png")
 
 ```
 
@@ -47,7 +47,7 @@ The system information control window indicates the system state. You can displa
 
 ```{r, layout="l-body-outset"}
 
-include_graphics("system_information.png")
+include_graphics("images/system_information.png")
 
 ```
 

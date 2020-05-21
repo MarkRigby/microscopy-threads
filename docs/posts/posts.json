@@ -31,8 +31,8 @@
   },
   {
     "path": "posts/NIS-Elements Ti2 pad alternative/",
-    "title": "Replacing the Ti2 pad in NIS Elements",
-    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show a",
+    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.",
     "author": [
       {
         "name": "Mark Rigby",
@@ -41,7 +41,7 @@
     ],
     "date": "2020-05-18",
     "categories": [],
-    "preview": {},
-    "last_modified": "2020-05-18T16:11:22+01:00"
+    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
+    "last_modified": "2020-05-18T16:35:03+01:00"
   }
 ]

@@ -21,5 +21,29 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+This article covers layouts in NIS-Elements the acquisition and analysis software for Nikon microscopes.
+
+A layout in the context of NIS-Elements AR is a set of options describing the arrangement of control panels, toolbars, and menu items. Blue tabs representing active layouts appear in the application status bar. The following layouts are placed there by default:
+
+- Full Screen
+- Docked Controls
+- Measurement
+
+Other layouts can be added and managed via the Layout Manager. To hide/show the layout tabs within the status bar, go for View > Layout > Layout Manager and (de)select the Show Layout Tabs option.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

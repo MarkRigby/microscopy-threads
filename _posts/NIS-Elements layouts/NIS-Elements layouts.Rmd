@@ -2,7 +2,7 @@
 title: "NIS-Elements Layouts"
 description: |
   NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.
-preview: images/nikon_logo.png
+#preview: 
 
 author:
   - name: Mark Rigby
