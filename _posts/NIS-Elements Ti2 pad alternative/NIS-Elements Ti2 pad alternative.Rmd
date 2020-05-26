@@ -2,6 +2,7 @@
 title: "Alternatives to the Ti/Ti2 pad in NIS Elements"
 description: |
  The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.
+draft: true
 author:
   - name: Mark Rigby 
     affiliation: Nikon Insturments UK
@@ -20,9 +21,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-The Ti2 pad has alot of information, objectives, filter cubes, shutters, diascopic light intensity, etc. However, typically users will encode the majority of this information within an optical configuration and not interact with the Ti2, expect perhaps to change the objective. This post provides an alternative solution. 
+The Ti2 pad has alot of information. The user can select objectives, filter cubes, shutters, light path, diascopic light intensity, and many more. However, typically users will encode the majority of this information within an optical configuration (OC), and not interact with the Ti2 pad during their experiments, expect perhaps to change the objective. It is not possible to remove controls from the Ti2 pad, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to provide additional readouts, whilst saving significant screen space. 
 
-```{r, layout="l-body-outset"}
+The Ti2 pad is shown below, where you can see it occupies a large amount of the screen.
+
+```{r, layout="l-screen"}
 
 include_graphics("images/tipad.png")
 
@@ -62,12 +65,11 @@ include_graphics("images/ammended_layout.png")
 
 
 
-
-Distill is a publication format for scientific and technical writing, native to the web. 
-
-Learn more about using Distill for R Markdown at <https://rstudio.github.io/distill>.
-
-
-
+name: "distill"
+title: "Distill for R Markdown"
+favicon: images/favicon.ico
+base_url: https://rstudio.github.io/distill
+twitter:
+  site: "@rstudio"
 
 

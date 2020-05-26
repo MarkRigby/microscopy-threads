@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>microscopy-threads</title>
+    <link>https://beta.rstudioconnect.com/content/3776/</link>
+    <atom:link href="https://beta.rstudioconnect.com/content/3776/index.xml" rel="self" type="application/rss+xml"/>
+    <description>microscopy-threads
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 26 May 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Tips and tricks for NIS-Elements #1</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements tips and tricks 1</link>
+      <description>Some suggestions to improve the user experience within NIS-Elements.</description>
+      <guid>https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements tips and tricks 1</guid>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements tips and tricks 1/images/preview.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Paper roundup May 2020</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://beta.rstudioconnect.com/content/3776/posts/05_2020 paper round-up</link>
+      <description>Paper roundup May 2020</description>
+      <guid>https://beta.rstudioconnect.com/content/3776/posts/05_2020 paper round-up</guid>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NIS-Elements Layouts</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements layouts</link>
+      <description>NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.</description>
+      <guid>https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements layouts</guid>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://beta.rstudioconnect.com/content/3776/posts/NIS-Elements layouts/images/nikon_logo.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Welcome to microscopy-threads</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://beta.rstudioconnect.com/content/3776/posts/welcome</link>
+      <description>Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.</description>
+      <guid>https://beta.rstudioconnect.com/content/3776/posts/welcome</guid>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

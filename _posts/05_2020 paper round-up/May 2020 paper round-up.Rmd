@@ -1,0 +1,67 @@
+---
+title: "Paper roundup May 2020"
+description: |
+draft: TRUE
+author:
+  - name: Mark Rigby
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(twitterwidget)
+```
+
+The first edition of the paper roundup appears to be heavily fluorophore-based. Perhaps this is a sign of things to come but 
+
+## New, brighter, mEOS3.2 variants
+\
+\
+
+mMaple3 and mEOS3.2 are currently the go to green/red photo-convertible fluoresent proteins for SMLM, however perhaps these new variants developed by Marathe et al now edge it. The newly developed mEosBrite variants that are reported to have higher quantum yield, and reduced cytotoxicity compared to the original mEos3.2.
+https://doi.org/10.1007/s10895-020-02537-8
+
+## Shadow super resolution imaging 
+
+
+
+## sandSTORM
+
+Continuing the theme of improvements to SMLM, sandSTORM is a SMLM method similar to dSTORM that uses self-activated photoblinking of Nitrogen Vacancy (NV) centers in nanosized diamonds to temproally separate overlapping single molecules, rather than Alexa647. Blinking of the photo-luminescence is thought to occur as the charge state of the NV centres changes as a result of photoionization when in the presence of sufficient electrolytes and continuous illumination.
+\
+\
+In comparison to tradititonal fluorophores used for dSTORM such as Alexa 647, the NV- centers were reported to have higher quantum yield, limited photo-bleaching, and low cytotoxicity. In addition as the NV centres switch between on and off states at high frequencies than the blinking of alexa 647, experimenters will be able to capture the 10,000s of images required over a shorter period (perhaps even facilitating live imaging). In addition, the NV centres do not require redox buffers and work in physiological solutions.
+\
+\
+The only thing I am worried about with fast switching fluorophores is their duty cycle. Are too many diamond centres on at the same time? This would limit the ability to separate fluorophores and reduce resolution, though perhaps overlapping peak separation algorithms may aid this such as HAWK (https://doi.org/10.1038/s41592-018-0072-5). The paper does report very high localisation accuracies so perhaps this is not an issue. 
+
+\
+\
+In the paper they used a 200mW 561nm laser, a commonly available wavelenght in most laser beds, where they found the luminescence of the on and off states to be most separated. The ability to use lower laser powers is crucial as SMLM systems tend to use high powered lasers which are generally more unstable, or use magnification lenses to concentrate the laser power, but therby reduce the field of view that is illuminated. 
+\
+\
+Paper uses an old Nikon TE2000, and the Nikon 1.49NA 100X TIRF lens. Would be interesting to try on the NSTORM 5 with Ti2 and PFS.
+\
+\
+https://www.biorxiv.org/content/10.1101/2020.05.20.106716v1.full.pdf+html
+\
+\
+Let's hope it catches on like the original sandstorm https://www.youtube.com/watch?v=y6120QOlsfU
+
+
+## post-SynTagMa and pre-SynTagMa 
+Calcium indiciators localised to presynaptic teminal and post-synaptic densities of neurons respectively. By chaning from green to red emitted fluoresence when the sense calcium, they mark synaptic activation. Thereby getting round the issue of temporal and spatial resolution reuqired to map large areas of synaptic activity. 
+\
+\
+https://doi.org/10.1038/s41467-020-16315-4
+
+
+
+

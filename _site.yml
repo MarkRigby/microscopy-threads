@@ -2,6 +2,11 @@ name: "microscopy-threads"
 title: "microscopy-threads"
 description: |
   microscopy-threads
+base_url: https://beta.rstudioconnect.com/content/3776/
+collections:
+  posts:
+    disqus: reproducible-finance-with-r
+    share: [twitter, linkedin]
 output_dir: "docs"
 navbar:
   right:

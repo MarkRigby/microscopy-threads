@@ -1,5 +1,20 @@
 [
   {
+    "path": "posts/NIS-Elements Ti2 pad alternative/",
+    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-21",
+    "categories": [],
+    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
+    "last_modified": "2020-05-21T13:50:26+01:00"
+  },
+  {
     "path": "posts/NIS-Elements layouts/",
     "title": "NIS-Elements Layouts",
     "description": "NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.",
@@ -28,20 +43,5 @@
     "categories": [],
     "preview": {},
     "last_modified": "2020-05-18T15:41:26+01:00"
-  },
-  {
-    "path": "posts/NIS-Elements Ti2 pad alternative/",
-    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
-    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-05-18",
-    "categories": [],
-    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
-    "last_modified": "2020-05-18T16:35:03+01:00"
   }
 ]
