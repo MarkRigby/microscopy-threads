@@ -1,8 +1,10 @@
 ---
 title: "Alternatives to the Ti/Ti2 pad in NIS Elements"
+categories:
+  - NIS-Elements
 description: |
  The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.
-draft: true
+draft: false
 author:
   - name: Mark Rigby 
     affiliation: Nikon Insturments UK
@@ -10,7 +12,10 @@ author:
     affiliation_url: https://www.microscope.healthcare.nikon.com/
 preview: images/system_information.png
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -62,6 +67,18 @@ The final result looks alot cleaner, and contains more useful information to the
 include_graphics("images/ammended_layout.png")
 
 ```
+
+
+## Acknowledgments {.appendix}
+
+This is a place to recognize people and institutions. It may also be a good place
+to acknowledge and cite software that makes your work possible.
+
+## Author Contributions {.appendix}
+
+We strongly encourage you to include an author contributions statement briefly 
+describing what each author did.
+
 
 
 

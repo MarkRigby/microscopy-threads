@@ -1,18 +1,35 @@
 [
   {
-    "path": "posts/NIS-Elements Ti2 pad alternative/",
-    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
-    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.",
+    "path": "posts/NIS-Elements tips and tricks 1/",
+    "title": "Tips and tricks for NIS-Elements #1",
+    "description": "Some suggestions to improve the user experience within NIS-Elements.",
     "author": [
       {
         "name": "Mark Rigby",
         "url": {}
       }
     ],
-    "date": "2020-05-21",
+    "date": "2020-05-26",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements tips and tricks 1/images/preview.png",
+    "last_modified": "2020-05-26T19:18:14+01:00"
+  },
+  {
+    "path": "posts/05_2020 paper round-up/",
+    "title": "Paper roundup May 2020",
+    "description": {},
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-26",
     "categories": [],
-    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
-    "last_modified": "2020-05-21T13:50:26+01:00"
+    "preview": {},
+    "last_modified": "2020-05-26T19:18:32+01:00"
   },
   {
     "path": "posts/NIS-Elements layouts/",
@@ -27,7 +44,7 @@
     "date": "2020-05-18",
     "categories": [],
     "preview": "posts/NIS-Elements layouts/images/nikon_logo.png",
-    "last_modified": "2020-05-18T15:12:32+01:00"
+    "last_modified": "2020-05-18T15:16:09+01:00"
   },
   {
     "path": "posts/welcome/",
@@ -42,6 +59,6 @@
     "date": "2020-05-18",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-05-18T15:41:26+01:00"
+    "last_modified": "2020-05-18T15:41:27+01:00"
   }
 ]
