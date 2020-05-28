@@ -19,10 +19,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
 library(knitr)
 
 knitr::opts_chunk$set(echo = FALSE)
-
 
 ```
 
@@ -40,7 +40,7 @@ include_graphics("images/magnifier_glass.png")
 
 ## Quick context menu
 
-When you press and hold the secondary mouse button over a displayed image for a longer time, the quick context menu will appear. Basic tools for detecting drawing, and deleting ROIs, clearing binaries and adding annotations are already predefined. 
+When you press and hold the secondary mouse button over a displayed image for a longer time than feels natural, the quick context menu will appear. Basic tools for detecting, drawing, and deleting ROIs, clearing binaries, and adding annotations are already predefined. 
 
 You can customise these tools within the Quick Context Menu tab in the general options window (Run Edit > Options ). Up to 8 predefined options can be defined. 
 
@@ -110,6 +110,21 @@ Keyboard shortcuts are particuarly useful when doing tasks that are reptitivie o
 * I : Bring up image properties menu with all the metadata 
 * Q : Brings up the Options menu
 
+
+
+## Adjusting  Auto-LUT default settings 
+
+When using NIS-Elements you will frequently use the Auto-LUT button to automatically adjust the cursor positions of all channels in your image. The purpose is to resonably enhance the image that is displyaed on screen by filtering the pixels based on their intensity. Note the pixel values are not changed, just which pixels are displayed.
+
+By default the settings are low: 0.01, high: 0.1. By changing them to low: 0.1, and high: 0.02, I find I get a much better range of pixel intensities. The image below shows how to change the settings:  
+
+```{r, layout="l-body-outset"}
+
+include_graphics("images/lut_settings.PNG")
+
+```
+
+Another slightly hidden feature in the LUT window is the slider on the left (inside the red box). This slider changes the count scale of the histogram from linear to logarithmic. By default it is always set to linear, though I personally prefer to see the logarithmic view as you can see the high intensity pixels more clearly. 
 
 
 
