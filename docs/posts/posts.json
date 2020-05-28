@@ -34,23 +34,6 @@
     "last_modified": "2020-05-28T13:06:12+01:00"
   },
   {
-    "path": "posts/NIS-Elements tips and tricks 2 Options/",
-    "title": "NIS-Elements tips and tricks #2 - Options",
-    "description": "How best to configure the options menu within NIS-Elements",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-05-28",
-    "categories": [
-      "NIS-Elements"
-    ],
-    "preview": {},
-    "last_modified": "2020-05-28T17:20:13+01:00"
-  },
-  {
     "path": "posts/NIS-Elements Ti2 pad alternative/",
     "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
     "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
@@ -83,6 +66,23 @@
     ],
     "preview": "posts/NIS-Elements tips and tricks 1/images/preview.png",
     "last_modified": "2020-05-28T19:10:34+01:00"
+  },
+  {
+    "path": "posts/NIS-Elements tips and tricks 2 Options/",
+    "title": "NIS-Elements tips and tricks #2 - Options",
+    "description": "How best to configure the options menu within NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-28",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements tips and tricks 2 Options/images/preview.png",
+    "last_modified": "2020-05-28T17:20:13+01:00"
   },
   {
     "path": "posts/welcome/",

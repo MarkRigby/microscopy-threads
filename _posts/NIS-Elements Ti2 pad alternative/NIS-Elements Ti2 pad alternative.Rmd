@@ -64,8 +64,6 @@ include_graphics("images/system_information.png")
 ```
 
 
-The final result looks alot cleaner, and contains more useful information to the user.
-
 
 
 

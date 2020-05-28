@@ -67,6 +67,10 @@ Let's hope it catches on like the original sandstorm https://www.youtube.com/wat
 
 ## Single Molecule Light Field Microscopy
 
+3D SMLM can be achieved through the addition of a cylindrical lens, which adds astigmatism to the single molecule point spread function. When calibrated the extent of the astigmatism can provide infromation on the molecules z-position. 
+
+In 3D SMLM, axial information is usually obtained at the detriment of both precision and resolution resulting from: a reduction in photon throughput (attributable to additional optical elements), intrinsically higher background from out-of-focus emitters and extended point spread functions (2). We introduce Single Molecule Light Field Microscopy (SMLFM), a simple and highly-efficient 3D super-resolution imaging technique which combines the complementary strengths of SMLM and light field detection to achieve super-resolution imaging throughout a continuous 3D volume.
+
 
 
 

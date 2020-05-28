@@ -1,5 +1,5 @@
 ---
-title: "Just another microscopy blog"
+title: "Another microscopy blog with some NIS-Elements tips"
 description: |
   Posts will tend to be on recent advances in light microscopy, with monthly twitter and paper round-ups. In addition there will be some posts that I hope can be of us to microscopists using NIS-Elements to acquire or analyse their images. 
 author:
