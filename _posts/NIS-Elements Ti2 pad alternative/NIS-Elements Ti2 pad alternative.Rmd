@@ -82,11 +82,5 @@ describing what each author did.
 
 
 
-name: "distill"
-title: "Distill for R Markdown"
-favicon: images/favicon.ico
-base_url: https://rstudio.github.io/distill
-twitter:
-  site: "@rstudio"
 
 
