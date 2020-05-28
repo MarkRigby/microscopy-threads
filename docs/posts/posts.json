@@ -34,21 +34,38 @@
     "last_modified": "2020-05-28T13:06:12+01:00"
   },
   {
-    "path": "posts/NIS-Elements Ti2 pad alternative/",
-    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
-    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.",
+    "path": "posts/NIS-Elements tips and tricks 2 Options/",
+    "title": "NIS-Elements tips and tricks #2 - Options",
+    "description": "How best to configure the options menu within NIS-Elements",
     "author": [
       {
         "name": "Mark Rigby",
         "url": {}
       }
     ],
-    "date": "2020-05-27",
+    "date": "2020-05-28",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": {},
+    "last_modified": "2020-05-28T17:20:13+01:00"
+  },
+  {
+    "path": "posts/NIS-Elements Ti2 pad alternative/",
+    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-28",
     "categories": [
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
-    "last_modified": "2020-05-27T14:14:28+01:00"
+    "last_modified": "2020-05-28T19:04:55+01:00"
   },
   {
     "path": "posts/NIS-Elements tips and tricks 1/",
@@ -60,27 +77,12 @@
         "url": {}
       }
     ],
-    "date": "2020-05-27",
+    "date": "2020-05-28",
     "categories": [
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements tips and tricks 1/images/preview.png",
-    "last_modified": "2020-05-27T14:11:15+01:00"
-  },
-  {
-    "path": "posts/NIS-Elements layouts/",
-    "title": "NIS-Elements Layouts",
-    "description": "NIS-Elements is a comprehensive acqusition and analysis software and as such can have a lot of buttons. However, this needn't be the case. Below are simplified layouts for different microscopes.",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-05-18",
-    "categories": [],
-    "preview": "posts/NIS-Elements layouts/images/nikon_logo.png",
-    "last_modified": "2020-05-18T15:16:09+01:00"
+    "last_modified": "2020-05-28T19:10:34+01:00"
   },
   {
     "path": "posts/welcome/",

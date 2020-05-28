@@ -3,7 +3,7 @@ title: "Alternatives to the Ti/Ti2 pad in NIS Elements"
 categories:
   - NIS-Elements
 description: |
- The Ti2 pad can take up a lot of screen are in NIS-Elements and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user and takes up less screen space.
+ The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.
 draft: false
 author:
   - name: Mark Rigby 
@@ -26,18 +26,26 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-The Ti2 pad has alot of information. The user can select objectives, filter cubes, shutters, light path, diascopic light intensity, and many more. However, typically users will encode the majority of this information within an optical configuration (OC), and not interact with the Ti2 pad during their experiments, expect perhaps to change the objective. It is not possible to remove controls from the Ti2 pad, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to provide additional readouts, whilst saving significant screen space. 
+The Ti2 pad has alot of information. The user has full control over the microscope and can select objectives, filter cubes, shutters, light path, diascopic light intensity, among many more features. However, typically users will encode the majority of this information within an optical configuration (OC), and not interact with the Ti2 pad during their experiments, except perhaps to change the objective.  
 
-The Ti2 pad is shown below, where you can see it occupies a large amount of the screen.
+```{r, fig.cap = "The Ti2 pad occupying a large amount of precious screen space", out.extra="class=external", layout="l-screen"}
 
-```{r, layout="l-screen"}
-
-include_graphics("images/tipad.png")
+knitr::include_graphics("images/tipad.png")
 
 ```
 
 
-Firstly, set up the macro panel to execute commands that change the nosepiece position 
+It is not possible to remove controls from the Ti2 pad without reducing functionality, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to control the PFS and provide additional readouts, whilst saving significant screen space. 
+
+
+```{r, fig.cap = "Macro panel allows users to select objectives, and system information panel gives control over the PFS as well as a showing the z position plotted against time", out.extra="class=external", layout="l-screen"}
+
+include_graphics("images/ammended_layout.png")
+
+```
+
+
+To change to the later setup, firstly, set up the macro panel to execute commands that change the nosepiece position. Screenshots from the Ti2 pad objectives can be taken and associated with the relevant macro button.
 
 ```{r, layout="l-body-outset"}
 
@@ -46,11 +54,7 @@ include_graphics("images/setup_macro_panel.png")
 ```
 
 
-Next open the system information panel from visualisation controls, and dock below the macro panel. System information can be tailored to 
-
-
-
-The system information control window indicates the system state. You can display information about the session time, experiment time elapsed, X, Y, and Z position. I personally find having the absolute z-poisition displayed on the y-axis versus time to be extremely useful, though many other variables could be displayed instead or at the same time.
+Next open the system information panel from visualisation controls, and dock below the macro panel. System information can be tailored to show the session time, experiment time elapsed, X, Y, and Z position. I personally find having the absolute z-poisition displayed on the y-axis versus time to be extremely useful, though many other variables could be displayed instead or at the same time.
 
 
 ```{r, layout="l-body-outset"}
@@ -62,22 +66,7 @@ include_graphics("images/system_information.png")
 
 The final result looks alot cleaner, and contains more useful information to the user.
 
-```{r, layout="l-body-outset"}
 
-include_graphics("images/ammended_layout.png")
-
-```
-
-
-## Acknowledgments {.appendix}
-
-This is a place to recognize people and institutions. It may also be a good place
-to acknowledge and cite software that makes your work possible.
-
-## Author Contributions {.appendix}
-
-We strongly encourage you to include an author contributions statement briefly 
-describing what each author did.
 
 
 
