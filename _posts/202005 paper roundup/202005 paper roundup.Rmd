@@ -1,0 +1,92 @@
+---
+title: "Paper roundup May 2020"
+categories:
+  - Recent papers & pre-prints
+description: |
+draft: FALSE
+author:
+  - name: Mark Rigby
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/bioRxiv.png
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(knitr)
+library(twitterwidget)
+```
+
+The first edition of the paper roundup appears to be heavily fluorophore-based. Perhaps this is a sign of things to come but 
+
+## New, brighter, mEOS3.2 variants
+
+mMaple3 and mEOS3.2 are currently the go to green/red photo-convertible fluoresent proteins for SMLM, however perhaps these new variants developed by Marathe et al now edge it. The newly developed mEosBrite variants that are reported to have higher quantum yield, and reduced cytotoxicity compared to the original mEos3.2.  
+
+https://doi.org/10.1007/s10895-020-02537-8
+<br>
+<br>
+
+## sandSTORM
+
+Continuing the theme of improvements to SMLM, sandSTORM is a SMLM method similar to dSTORM that uses self-activated photoblinking of Nitrogen Vacancy (NV) centers in nanosized diamonds to temproally separate overlapping single molecules. Blinking of the photo-luminescence is thought to occur as the charge state of the NV centres changes as a result of photoionization when in the presence of sufficient electrolytes and continuous illumination.
+
+In comparison to tradititonal fluorophores used for dSTORM, such as Alexa 647, the NV- centers were reported to have higher quantum yield, limited photo-bleaching, and low cytotoxicity. In addition as the NV centres switch between on and off states at high frequencies than the blinking of alexa 647, experimenters will be able to capture the 10,000s of images required over a shorter period (perhaps even facilitating live imaging). What is particualrly nice is that hee NV centres do not require redox buffers, and work in physiological solutions.
+
+In the paper they illuminated their sample with a 200mW 561nm laser, and used a bandpass emission filter of 570 nm to 640 which they report provided the best spectrum of NVo and NV- emission overlap. The ability to use lower laser powers is crucial as SMLM systems tend to use high powered lasers which are generally more unstable, or use magnification lenses to concentrate the laser power, but therby reduce the field of view that is illuminated. 
+
+One observation on twitter was that the NV centres used were relatively large (50nm), which obviously would limit the resolution. Izzy Jayasinghe, the last author, responeded to say that smaller NVs (5nm) were less optimal for imaging as the smaller surf area means that fewer available photoluminescent NVs and (b) lower efficiency of an conjugation. 
+
+
+```{r twitter, layout="l-body"}
+
+twitterwidget('1263448341188313093')
+
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+Approvingly, the paper uses an old Nikon TE2000, and the Nikon 1.49NA 100X TIRF lens. Would be interesting to try on the NSTORM 5 with Ti2 and PFS.
+
+https://www.biorxiv.org/content/10.1101/2020.05.20.106716v1.full.pdf+html
+
+Let's hope it catches on like the original sandstorm https://www.youtube.com/watch?v=y6120QOlsfU
+<br>
+<br>
+
+## post-SynTagMa and pre-SynTagMa 
+
+
+Perez-Alvarez et al. report genetically encoded calcium indiciators that are localised to presynaptic teminal and post-synaptic densities of neurons, respectively. When exposed to 395–405 nm illumination these probes are primed to permanantly chaning from green to red emitted fluoresence when they bind calcium. This gives the experimenter an indication of synaptic activation, and provides a clever way to get around the issue of temporal and spatial resolution reuqired to map large areas of synaptic activity. 
+
+
+https://doi.org/10.1038/s41467-020-16315-4
+
+<br>
+<br>
+
+## 3D light field voltage imaging
+
+Voltage imaging is taking off with the continuing improvement of genetically-encoded voltage indicators. This paper by .. et al addresses one of the major hurdles in voltage imaging, namely when voltage chanegs occur so quickly how do you capture the fluoresence changes from multiple structures located in different z-planes? Here they use the GEI VSP developed by Thomas Knopfel's lab, and imaged it in brain slices using a Light field microscope (LFM). LFM uses an unconvential arrangement of optical components where a microlens array is positioned at the image plane of the microscope and the camera positioned at the back focal plane. The microlenses act to disperses the angular components of the collected image which can be used to reconstruct the objects’ z-position using a PSF deconvolution approach. 
+
+https://www.biorxiv.org/content/10.1101/2020.05.22.108191v1.full.pdf+html
+
+
+## msGFP2: A photostable monomeric superfolder GFP
+
+There a few issues with GFP. Firstly it has a weak tendency to dimerize, which can cause artifactual clustering of tagged proteins. Secondly, GFP can misfold to form nonfluorescent aggregates. Valbuena et al. have designed msGFP2 that is both monomeric, and 'super-folded', thereby circumventing the aforementioned issues, respectively. In addition msGFP2 is reported to achieve similar rates of photo-bleaching exhibited by EGFP. Finally, the authors added alternative N- and C-terminal peptides into msGFP2 to reduce cytotoxicity. 
+
+https://www.biorxiv.org/content/10.1101/811588v1.full  
+
+
+

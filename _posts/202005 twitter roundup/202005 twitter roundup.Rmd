@@ -29,7 +29,7 @@ library(knitr)
 ```
 
 
-##### MesoSPIM version 5!  
+## MesoSPIM version 5!  
 
 
 ```{r twitter 1, layout="l-body"}
@@ -37,9 +37,13 @@ library(knitr)
 twitterwidget('1158687219223339008')
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-##### Link to a nice video by Kurt on the influence of adding optical components to image and conjugate planes.  
+## Link to a nice video by Kurt on the influence of adding optical components to image and conjugate planes.  
 
 
 ```{r twitter 2, layout="l-body"}
@@ -47,8 +51,14 @@ twitterwidget('1158687219223339008')
 twitterwidget('1265452074227163141')
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
 
-##### Nice tool for drawing optical schematics.  
+
+## Nice tool for drawing optical schematics.  
 
 
 ```{r twitter 3, layout="l-body"}
@@ -56,9 +66,13 @@ twitterwidget('1265452074227163141')
 twitterwidget('1255512265148727296')
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-##### Nikon small world enteries for 2020 are now closed with the winners to be annoced 15th October  
+## Nikon small world enteries for 2020 are now closed with the winners to be annoced 15th October  
 
 
 ```{r twitter 4, layout="l-body"}
