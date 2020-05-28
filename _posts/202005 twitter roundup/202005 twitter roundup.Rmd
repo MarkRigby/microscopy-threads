@@ -1,0 +1,72 @@
+---
+title: "May 2020 Twitter roundup"
+categories:
+  - Twitter posts
+description: |
+  Microsocpy based twitter posts that have caught my attention this month
+draft: false
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/twitter_logo.PNG
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+library(twitterwidget)
+library(knitr)
+
+```
+
+
+##### MesoSPIM version 5!  
+
+
+```{r twitter 1, layout="l-body"}
+
+twitterwidget('1158687219223339008')
+
+```
+
+
+##### Link to a nice video by Kurt on the influence of adding optical components to image and conjugate planes.  
+
+
+```{r twitter 2, layout="l-body"}
+
+twitterwidget('1265452074227163141')
+
+```
+
+##### Nice tool for drawing optical schematics.  
+
+
+```{r twitter 3, layout="l-body"}
+
+twitterwidget('1255512265148727296')
+
+```
+
+
+##### Nikon small world enteries for 2020 are now closed with the winners to be annoced 15th October  
+
+
+```{r twitter 4, layout="l-body"}
+
+twitterwidget('1263121194955485191')
+
+```
+
+
+
+
