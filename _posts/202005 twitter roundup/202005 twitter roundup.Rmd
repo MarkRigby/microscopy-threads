@@ -93,3 +93,11 @@ twitterwidget('1263121194955485191')
 twitterwidget('1266040899932471298')
 
 ```
+
+#### Drosophilia image awards
+
+```{r twitter 5, layout="l-body"}
+twitterwidget('1266040105996697600')
+
+```
+
