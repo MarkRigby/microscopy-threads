@@ -130,7 +130,7 @@ I tend to prefer the dark scheme, thoguh for training the light scheme can often
  
  
 ### 3D rendering
-- This is used for the 3D volume viewer which is included with every copy of NIS-Elements AR and works very nicely, especially for making rendered movies. By defualt it should be set to the New Engine, which is much faster than the Old engine, but its always worth checking. 
+- This is used for the 3D volume viewer which is included with every copy of NIS-Elements AR and works very nicely, especially for making rendered movies. By default it should be set to the New Engine, which is much faster than the old engine, but its always worth checking. 
  
 
 
