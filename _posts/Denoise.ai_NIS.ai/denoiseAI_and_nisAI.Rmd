@@ -2,7 +2,7 @@
 title: "Denoise.ai"
 description: |
   New tool within NIS-Elements that apply trained convoluted neural networks to your images for the purpose of removing shot noise.
-draft: false
+draft: true
 author:
   - name: Mark Rigby 
     affiliation: Nikon Insturments UK

@@ -24,9 +24,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In truth this post is a reference to a USCD Nikon imaging centre webpage, which has a great guide to selecting fluorophores:
 
-https://nic.ucsd.edu/tips/fps.html
+https://nic.ucsd.edu/tips/fps.html  
 
-I second their advice to use FP-base to keep on track of the latest fluorophores, especially using thier interactive charts. My list differs slightly altered the list with the release od msGFP2 (though I have not tried it personally).  
+
+I second the advice to use FP-base to keep on track of the latest fluorophores, especially using thier interactive charts. https://www.fpbase.org/chart/  
+
+My list differs slightly from the USDN NIC list, solely with the release od msGFP2 (though I have not tried it personally it looks promising): 
 
 
 - 405 nm : mTagBFP2

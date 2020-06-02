@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/NIS-Elements tips and tricks 2 Options/",
-    "title": "NIS-Elements tips and tricks #2 - Options",
-    "description": "How best to configure the options menu within NIS-Elements",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-06-02",
-    "categories": [
-      "NIS-Elements"
-    ],
-    "preview": "posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG",
-    "last_modified": "2020-06-02T09:29:03+01:00"
-  },
-  {
     "path": "posts/202005 paper roundup/",
     "title": "Paper roundup May 2020",
     "description": {},
@@ -31,7 +14,7 @@
       "Recent papers & pre-prints"
     ],
     "preview": "posts/202005 paper roundup/images/bioRxiv.png",
-    "last_modified": "2020-06-02T12:43:16+01:00"
+    "last_modified": "2020-06-02T12:43:19+01:00"
   },
   {
     "path": "posts/Denoise.ai_NIS.ai/",
@@ -47,6 +30,23 @@
     "categories": [],
     "preview": "posts/Denoise.ai_NIS.ai/images/denoise.gif",
     "last_modified": "2020-06-02T13:36:56+01:00"
+  },
+  {
+    "path": "posts/NIS-Elements tips and tricks 2 Options/",
+    "title": "NIS-Elements tips and tricks #2 - Options",
+    "description": "How best to configure the options menu within NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-02",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG",
+    "last_modified": "2020-06-02T09:29:03+01:00"
   },
   {
     "path": "posts/202005 twitter roundup/",
