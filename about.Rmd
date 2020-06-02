@@ -14,10 +14,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## About me
-I'm currently working as an advanced imaging specialist for Nikon UK, predominantly advicing scientists on what microscopes to use, how to use them effectively, and how best to analyse their images. I'm mostly based around London, but sometimes go further afield.  
+I'm an advanced imaging specialist for Nikon UK, predominantly advicing scientists on what microscopes to use, how to use them effectively, and how best to analyse their images. I'm mostly based around London, but sometimes go further afield.  
 
 
-Previously, I had been working as a post doc in  Prof. Juan Burrone's lab at Kings College London studying the action potneital in neuronal axons using the latest genetically-encoded voltage indicators. And before that I worked as an electrophysiologist at Doshisha University, Japan, and at UCL where I did my PhD. A list of publications are below. 
+Previously, I had been working as a post doc in  Prof. Juan Burrone's lab at Kings College London studying the action potential in neuronal axons using the latest genetically-encoded voltage indicators. Before that I worked as an electrophysiologist at Doshisha University, Japan, with Prof. Tomoyuki Takahashi, and before that I was at UCL where I did my PhD with Prof. Mark Farrant. A list of my publications are below. 
 
 
 

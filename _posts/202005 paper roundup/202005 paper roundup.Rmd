@@ -35,13 +35,13 @@ https://doi.org/10.1007/s10895-020-02537-8
 
 ## sandSTORM
 
-Continuing the theme of improvements to SMLM, sandSTORM is a SMLM method similar to dSTORM that uses self-activated photoblinking of Nitrogen Vacancy (NV) centers in nanosized diamonds to temproally separate overlapping single molecules. Blinking of the photo-luminescence is thought to occur as the charge state of the NV centres changes as a result of photoionization when in the presence of sufficient electrolytes and continuous illumination.
+Continuing the theme of improvements to SMLM probes, sandSTORM is a SMLM method similar to dSTORM that uses self-activated photoblinking of Nitrogen Vacancy (NV) centers conjugated to nanosized diamonds to temproally separate overlapping single molecules. Blinking of the photo-luminescence is thought to occur as the charge state of the NV centres changes as a result of photoionization when in the presence of sufficient electrolytes and continuous illumination.
 
-In comparison to tradititonal fluorophores used for dSTORM, such as Alexa 647, the NV- centers were reported to have higher quantum yield, limited photo-bleaching, and low cytotoxicity. In addition as the NV centres switch between on and off states at high frequencies than the blinking of alexa 647, experimenters will be able to capture the 10,000s of images required over a shorter period (perhaps even facilitating live imaging). What is particualrly nice is that hee NV centres do not require redox buffers, and work in physiological solutions.
+In comparison to tradititonal fluorophores used for dSTORM, such as Alexa 647, the NV- centers were reported to have higher quantum yield, limited photo-bleaching, and low cytotoxicity. In addition, as the NV centres switch between on and off states at high frequencies than the blinking of alexa 647, experimenters will be able to capture the required 10,000s of images over a shorter period (perhaps even facilitating live imaging). What is particualrly nice is that the NV centres do not require redox buffers, and work in physiological solutions.
 
-In the paper they illuminated their sample with a 200mW 561nm laser, and used a bandpass emission filter of 570 nm to 640 which they report provided the best spectrum of NVo and NV- emission overlap. The ability to use lower laser powers is crucial as SMLM systems tend to use high powered lasers which are generally more unstable, or use magnification lenses to concentrate the laser power, but therby reduce the field of view that is illuminated. 
+In the paper they illuminated their sample with a 200mW 561nm laser, and used a bandpass emission filter of 570 nm to 640, which they report provided the best spectrum of NVo and NV- emission overlap. The ability to use lower laser powers is particulalry attractive as SMLM systems tend to use high-powered lasers that are generally more unstable, or implement magnification lenses to concentrate the laser power, therby reducing the field of view that is illuminated. 
 
-One observation on twitter was that the NV centres used were relatively large (50nm), which obviously would limit the resolution. Izzy Jayasinghe, the last author, responeded to say that smaller NVs (5nm) were less optimal for imaging as the smaller surf area means that fewer available photoluminescent NVs and (b) lower efficiency of an conjugation. 
+One observation on twitter by Matt Rasband was that the nanodiamonds used were relatively large (50 nm), which would limit the resolution. Izzy Jayasinghe, the last author on the pre-print, responeded to say that they tried smaller NVs (5 nm), which they found to be less optimal for imaging as the smaller surface area meant fewer photoluminescent NVs were available, and they exhibited a lower conjugation efficiency.
 
 
 ```{r twitter, layout="l-body"}
@@ -65,19 +65,32 @@ Let's hope it catches on like the original sandstorm https://www.youtube.com/wat
 <br>
 
 
-## Single Molecule Light Field Microscopy
+## Single Molecule Light Field Microscopy (LFM)
 
-3D SMLM can be achieved through the addition of a cylindrical lens, which adds astigmatism to the single molecule point spread function. When calibrated the extent of the astigmatism can provide infromation on the molecules z-position. 
+3D single molecule localisation microscopy (SMLM) is traditionally achieved through the addition of a cylindrical lens into the light path, which adds an astigmatism to the single molecule point spread function. When calibrated, the extent of the astigmatism can provide infromation on the molecule's z-position. Since its intitial description in 2006, other methods including multiplane imaging (https://doi.org/10.1073/pnas.0810636105),  double-helix PSF (https://doi.org/10.1073/pnas.0900245106), and 2-photon activation by temporal focusing (https://www.nature.com/articles/nmeth.1211), have also been developed for 3D SMLM.
 
-In 3D SMLM, axial information is usually obtained at the detriment of both precision and resolution resulting from: a reduction in photon throughput (attributable to additional optical elements), intrinsically higher background from out-of-focus emitters and extended point spread functions (2). We introduce Single Molecule Light Field Microscopy (SMLFM), a simple and highly-efficient 3D super-resolution imaging technique which combines the complementary strengths of SMLM and light field detection to achieve super-resolution imaging throughout a continuous 3D volume.
+Sims et al., describe a different optical arrangement to achieve 3D SMLM. Fourier LFM is achieved by positioning a refractive microlens array in an intermediate image plane in front of the camera (see image below). Instead of a the typical single image, the microlenses produces many views of the same image within circular sub-images. In addition to x y information, each the circular sub-images provides different angular sampling due to the asymmetric curvature of emission light caused by the microlenses. The angular information from all cicrular sub-images can be used to locate the z-position os single molecules.  
+<br>
 
+```{r, layout="l-body-outset"}
 
+include_graphics("images/Light_field_microscope.PNG")
+
+```
+
+<br>
+
+The main advantage of using a microlens arrary is the larger z-range comapred to a traiditonal cylindrical lens system, ~ 6 $\mu m$ compared to ~ 0.8 $\mu m$, respectively. Though note many SMLM systems offer the ability to overlap thier 0.8 $\mu m$ z-ranges using a piezo device for instance. Thus, though it is possible to get a 5 um range with a cylindrical lens system, it will take more time that the technqiue descirbed in this pre-print.  
+
+Over the extended z-range, Sims et al., report similar xy reolsution to exisitng STORM and PALM tehcnqiues (~ 20 nm). What apears nice is that thier technique is compatible with existing gaussian detection algorithms that have been used and refined. In addition, the post-acquisition aberration correction that is essential in most 3D SMLM techniques requires no phase retrieval or z-dependent calibration scans, which can be time consuming.  
+
+https://doi.org/10.1101/2020.05.20.104802
 
 
 ## post-SynTagMa and pre-SynTagMa 
 
 
-Perez-Alvarez et al. report genetically encoded calcium indiciators that are localised to presynaptic teminal and post-synaptic densities of neurons, respectively. When exposed to 395–405 nm illumination these probes are primed to permanantly chaning from green to red emitted fluoresence when they bind calcium. This gives the experimenter an indication of synaptic activation, and provides a clever way to get around the issue of temporal and spatial resolution reuqired to map large areas of synaptic activity. 
+Perez-Alvarez et al. report genetically encoded calcium indiciators that are localised to pre- and post-synaptic strucutres of neurons, respectively. When exposed to 395–405 nm illumination these probes are primed to permanantly change from green to red emitted fluoresence when they bind calcium. This gives the experimenter an indication of neurotransmitter release (indirectly), and postsynaptic activation. EMploying a blue-light dependent photo-conversion provides a clever way to get around the issue of the temporal and XYZ spatial resolution reuqired to map large areas of synaptic activity. 
 
 
 https://doi.org/10.1038/s41467-020-16315-4
@@ -87,7 +100,11 @@ https://doi.org/10.1038/s41467-020-16315-4
 
 ## 3D light field voltage imaging
 
-Voltage imaging is taking off with the continuing improvement of genetically-encoded voltage indicators. This paper by .. et al addresses one of the major hurdles in voltage imaging, namely when voltage chanegs occur so quickly how do you capture the fluoresence changes from multiple structures located in different z-planes? Here they use the GEI VSP developed by Thomas Knopfel's lab, and imaged it in brain slices using a Light field microscope (LFM). LFM uses an unconvential arrangement of optical components where a microlens array is positioned at the image plane of the microscope and the camera positioned at the back focal plane. The microlenses act to disperses the angular components of the collected image which can be used to reconstruct the objects’ z-position using a PSF deconvolution approach.  
+Voltage imaging is still an emerging technique with the continuing improvement of genetically-encoded voltage indicators (GEVIs). This pre-print by Quicke et al. addresses one of the major hurdles in voltage imaging, namely when voltage changes occur so quickly how do you capture the corresponding changes in fluoresence from structures located in, or across, different z-planes within your field of view?  
+
+Here Quicke et al. used a relatively old GEVI, VSFP-Butterfly 1.2, developed by Thomas Knopfel's lab. They imaged VSP in brain slices using a Light field microscope (LFM). As mentioned above, this is essentially a widefield system with microlenses in the intermeidate image plane to disperse the angular components of the collected image, which can then be used to reconstruct objects’ z-position. Thus, they imaged VSP at a range of z-positions simultaneously with a single camera image. Very nice.
+
+In this paper the objects were neuronal dendrites that weave in and out of z-planes, and propagate changes in voltage in the order of 1 $\mu m$ per 6 $\mu s$ passivley to and from the neuronal cell soma. Note, whilst LFM provides dramic improvements in z sampling, improvements still need to made in camera technology to capture such fast voltage changes. Currently, even the fastest sCMOS cameras have to be severely cropped in FOV to achieve the nyqusit sampling rates equivalent to traditional pipette-based electrophysiological techniques. 
 
 https://www.biorxiv.org/content/10.1101/2020.05.22.108191v1.full.pdf+html
 
@@ -101,9 +118,9 @@ https://www.biorxiv.org/content/10.1101/811588v1.full
 
 ## Live-cell imaging in the era of too many microscopes
 
-A brief primer providing a guide to which microscope biologists should choose in what is a bewildering world acronyms and ever advancing techniques. Figure 1 provides a nice reminder of the classic 'pyramid of frustration' or perhaps the pyramid of compromise is a more glass half full way of looking at it. Handily, the review gives recent examples of what bioloigcal objects have been imaged with super-resolution, structured-illumination, light sheet, and atomic force microscopy.  
+A brief primer providing a guide to which microscope biologists should choose in what is a bewildering world of acronyms, and ever-advancing techniques. Figure 1 provides a reminder of the classic 'pyramid of frustration' or perhaps the 'pyramid of compromise' is a more glass half full way of looking at it. Handily, the review gives recent examples of what bioloigcal objects have been imaged with super-resolution, structured-illumination, light sheet, and atomic force microscopy.  
 
-It's by no means an exhaustive comparison of the techniques, and gives no detail on non-commercialised advances,  but provides reasearchers with an introduction to the current state of microscopy, and where they can find links to relevant papers.  
+It's by no means an exhaustive comparison of all available techniques, and gives no detail on non-commercialised advances, but provides researchers with an introduction to the current state of advanced microscopy, and where they can find links to relevant papers.  
 
 
 https://doi.org/10.1016/j.ceb.2020.04.008
