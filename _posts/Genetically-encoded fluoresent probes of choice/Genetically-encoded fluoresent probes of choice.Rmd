@@ -19,7 +19,9 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 In truth this post is a reference to a USCD Nikon imaging centre webpage, which has a great guide to selecting fluorophores:
