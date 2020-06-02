@@ -17,7 +17,9 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 As with most aspects of life, deep-learning neuronal networks are well and truely deployed within microscopy. Nikon offers powerful and simple tools to improve your imaging. 
