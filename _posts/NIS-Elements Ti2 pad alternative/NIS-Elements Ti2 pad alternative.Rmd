@@ -35,7 +35,7 @@ knitr::include_graphics("images/tipad.png")
 ```
 
 
-It is not possible to remove controls from the Ti2 pad without reducing functionality, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to control the PFS and provide additional readouts, whilst saving significant screen space. 
+It is not possible to remove controls from the Ti2 pad without reducing functionality, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to provide information on the XYZ position of the stafe, perfect focus system offset, amongst additional readouts, whilst saving significant screen space. 
 
 
 ```{r, fig.cap = "Macro panel allows users to select objectives, and system information panel gives control over the PFS as well as a showing the z position plotted against time", out.extra="class=external", layout="l-screen"}

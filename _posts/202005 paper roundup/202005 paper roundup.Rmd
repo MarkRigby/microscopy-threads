@@ -87,16 +87,26 @@ https://doi.org/10.1038/s41467-020-16315-4
 
 ## 3D light field voltage imaging
 
-Voltage imaging is taking off with the continuing improvement of genetically-encoded voltage indicators. This paper by .. et al addresses one of the major hurdles in voltage imaging, namely when voltage chanegs occur so quickly how do you capture the fluoresence changes from multiple structures located in different z-planes? Here they use the GEI VSP developed by Thomas Knopfel's lab, and imaged it in brain slices using a Light field microscope (LFM). LFM uses an unconvential arrangement of optical components where a microlens array is positioned at the image plane of the microscope and the camera positioned at the back focal plane. The microlenses act to disperses the angular components of the collected image which can be used to reconstruct the objects’ z-position using a PSF deconvolution approach. 
+Voltage imaging is taking off with the continuing improvement of genetically-encoded voltage indicators. This paper by .. et al addresses one of the major hurdles in voltage imaging, namely when voltage chanegs occur so quickly how do you capture the fluoresence changes from multiple structures located in different z-planes? Here they use the GEI VSP developed by Thomas Knopfel's lab, and imaged it in brain slices using a Light field microscope (LFM). LFM uses an unconvential arrangement of optical components where a microlens array is positioned at the image plane of the microscope and the camera positioned at the back focal plane. The microlenses act to disperses the angular components of the collected image which can be used to reconstruct the objects’ z-position using a PSF deconvolution approach.  
 
 https://www.biorxiv.org/content/10.1101/2020.05.22.108191v1.full.pdf+html
 
 
 ## msGFP2: A photostable monomeric superfolder GFP
 
-There a few issues with GFP. Firstly it has a weak tendency to dimerize, which can cause artifactual clustering of tagged proteins. Secondly, GFP can misfold to form nonfluorescent aggregates. Valbuena et al. have designed msGFP2 that is both monomeric, and 'super-folded', thereby circumventing the aforementioned issues, respectively. In addition msGFP2 is reported to achieve similar rates of photo-bleaching exhibited by EGFP. Finally, the authors added alternative N- and C-terminal peptides into msGFP2 to reduce cytotoxicity. 
+There a few issues with GFP. Firstly it has a weak tendency to dimerize, which can cause artifactual clustering of tagged proteins. Secondly, GFP can misfold to form nonfluorescent aggregates. Valbuena et al. have designed msGFP2 that is both monomeric, and 'super-folded', thereby circumventing the aforementioned issues, respectively. In addition msGFP2 is reported to achieve similar rates of photo-bleaching exhibited by EGFP. Finally, the authors added alternative N- and C-terminal peptides into msGFP2 to reduce cytotoxicity.  
 
 https://www.biorxiv.org/content/10.1101/811588v1.full  
+
+
+## Live-cell imaging in the era of too many microscopes
+
+A brief primer providing a guide to which microscope biologists should choose in what is a bewildering world acronyms and ever advancing techniques. Figure 1 provides a nice reminder of the classic 'pyramid of frustration' or perhaps the pyramid of compromise is a more glass half full way of looking at it. Handily, the review gives recent examples of what bioloigcal objects have been imaged with super-resolution, structured-illumination, light sheet, and atomic force microscopy.  
+
+It's by no means an exhaustive comparison of the techniques, and gives no detail on non-commercialised advances,  but provides reasearchers with an introduction to the current state of microscopy, and where they can find links to relevant papers.  
+
+
+https://doi.org/10.1016/j.ceb.2020.04.008
 
 
 

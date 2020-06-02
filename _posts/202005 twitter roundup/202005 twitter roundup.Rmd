@@ -29,7 +29,7 @@ library(knitr)
 ```
 
 
-#### MesoSPIM version 5!  
+#### MesoSPIM version 5  
 
 
 ```{r twitter 1, layout="l-body"}
@@ -43,7 +43,7 @@ twitterwidget('1158687219223339008')
 <br>
 <br>
 
-#### Link to a nice video by Kurt on the influence of adding optical components to image and conjugate planes.  
+#### Effect of optical components to image and conjugate planes.  
 
 
 ```{r twitter 2, layout="l-body"}
@@ -58,7 +58,7 @@ twitterwidget('1265452074227163141')
 <br>
 
 
-#### Nice tool for drawing optical schematics.  
+####  Online tool for drawing optical schematics.  
 
 
 ```{r twitter 3, layout="l-body"}
@@ -72,7 +72,8 @@ twitterwidget('1255512265148727296')
 <br>
 <br>
 
-#### Nikon small world enteries for 2020 are now closed with the winners to be annoced 15th October  
+#### Nikon small world 
+Enteries for 2020 are now closed with the winners to be annoced 15th October  
 
 
 ```{r twitter 4, layout="l-body"}
@@ -94,10 +95,30 @@ twitterwidget('1266040899932471298')
 
 ```
 
-#### Drosophilia image awards
+#### Drosophila image awards 2020
 
 ```{r twitter 5, layout="l-body"}
 twitterwidget('1266040105996697600')
 
 ```
+
+
+#### Galvano mirrors
+
+```{r twitter 5, layout="l-body"}
+
+twitterwidget('1266376729464987648
+
+```
+
+#### Tips for what to include in you imaging methods section
+
+```{r twitter 5, layout="l-body"}
+
+twitterwidget('1266093328413724673
+
+```
+
+
+
 
