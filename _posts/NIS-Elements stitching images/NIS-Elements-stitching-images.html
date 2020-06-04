@@ -2055,9 +2055,10 @@ Figure 8: The JOB gives the option to define ROIs around the sample/s, from whic
 <p>If you acquire a multi-channel image, what channel does the image stitching algorithms use?</p>
 <p>Registration, or the alignment of tiles, is done on the combined information from all channels. Stitching, and blending, is always done at once for all channels so that the seams are identical for different channels.</p>
 <h2 id="shading-correction">Shading correction</h2>
-<p>What channel is used for shading correction in a multi-channel image?</p>
+<p>What channel is used for shading correction in a multi-channel image within NIS-Elements?</p>
 <p>The shading correction is calculated for all channels separately. The background fluorescence can vary between the channels so we do not support using shading estimates from one channel to correct another one. For RGB images, it is done at once for all three channels from the calculated intensity.</p>
 <p>Note, there are some algorithmic changes in more recent versions of NIS-Elements that have improved the results.</p>
+<p>For suggestions on to impletment shading correction into your imaging, Dr Kurt Thorn wrote a <a href="href:%20Useful_links.html">handy blog post</a></p>
 <h2 id="background-subtraction">Background subtraction</h2>
 <p>Background subtraction performs a subtraction, not a division. Division is possible using the Image &gt; Image operations menu.</p>
 <h2 id="acknowledgments" class="appendix">Acknowledgments</h2>

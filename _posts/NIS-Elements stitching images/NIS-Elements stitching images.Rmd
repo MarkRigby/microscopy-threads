@@ -141,11 +141,13 @@ Registration, or the alignment of tiles, is done on the combined information fro
 
 ## Shading correction
 
-What channel is used for shading correction in a multi-channel image?  
+What channel is used for shading correction in a multi-channel image within NIS-Elements?  
 
 The shading correction is calculated for all channels separately. The background fluorescence can vary between the channels so we do not support using shading estimates from one channel to correct another one. For RGB images, it is done at once for all three channels from the calculated intensity.  
 
 Note, there are some algorithmic changes in more recent versions of NIS-Elements that have improved the results.
+
+For suggestions on to impletment shading correction into your imaging, Kurt Thorn wrote a [handy blog post](href: Useful_links.html)
 
 
 ## Background subtraction
