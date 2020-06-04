@@ -4,7 +4,7 @@ categories:
   - NIS-Elements
 description: |
   Sitching images is not an easy task, recent improvements in the optimal path algorithm in NIS-Elements has markedly reduced artefacts
-draft: true
+draft: false
 author:
   - name: Mark Rigby 
     affiliation: Nikon Insturments UK
