@@ -1,0 +1,95 @@
+---
+title: "Useful links"
+description: |
+  Useful links 
+draft: false
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Below are a list of useful links for advice on general microscopy practices, and also some more specific to NIS-Elements.
+
+# Resources
+
+## Fluorescence 
+
+FP base is a great tool for comparing fluoresenct proteins, particularly their interactive chart. It is maintained regularly so a good option for those thinking of new imaging experiments and want to select the most appropriate probe.
+
+
+- https://www.fpbase.org/chart/
+
+The UCSD Nikon Imaging Centre has a useful guide to which fluorescent proteins and dyes to select for the standard imaging lines. I would perhaps add mEOS3.2 brite to the list of photoactivatable proteins, and the newly released msGFP2 to the list of green fluorescent proteins.  
+
+- https://nic.ucsd.edu/tips/fps.html
+
+- https://nic.ucsd.edu/tips/dyes.html
+
+## General microscopy practices
+
+### Koehler illumination
+
+
+- https://help.nic.med.harvard.edu/hc/en-us/articles/360019465753-How-do-I-set-up-Koehler-illumination-
+
+
+
+### Mounting media for fixed samples
+
+The Nikon Imaging Centre at Harvard recommends to use ProLong Gold (refractive index; 1.47) or Prolong Diamond (refractive index; 1.47, but with superior antifade properties that Gold).  
+
+However, if using an Oil immersion objective, Prolong Glass looks like it may work even better to reduce spherical abberation due to its refractive index of 1.52 after curing (very similar to the refractive index of coverslip glass, and immersion oil).
+
+- https://nic.med.harvard.edu/resources/media/
+
+
+### Tips from Northwestern Nikon Imaging Centre
+
+They have a nice 
+
+
+
+
+- http://nic.feinberg.northwestern.edu/main/tips.html
+
+
+## Nikon microscope and NIS-Elements FAQs
+
+The Nikon Imaging Centre at Harvard has put together some great FAQs for using Nikon microscopes:
+
+- https://help.nic.med.harvard.edu/hc/en-us
+
+
+
+## NIS-Elements How To Guides
+
+How to guides for 
+- https://nic.kcl.ac.uk/wiki/nis-elements-technical-notes/
+
+
+A bit out-dated now but still some useful how to's
+- http://www.austinblanco.com/blog/resources/imaging-resource-list/
+
+
+
+## Nikon microscope guides
+
+The following links will have some instructions that are specific to particular microscopes within particualr instiutions. However, they still contain alot of useful advice applicable to all systems of the same type.
+
+Isma Ali, Virginia Silio, Dan Matthews, and now James Levitt manage or have managed the microscoeps at the Nikon Imaging Centre at King's College London. They have put together some useful guides on the Ti- based A1 point scanning confocal, the Ti-based A1R point scanning confocal, the Ni-based upright multi-photon confocoal, a Ti2-based widefield system, and a Ti-based X1 spinning disk system.
+
+- https://nic.kcl.ac.uk/wiki/user-guides/
+
+

@@ -3,6 +3,7 @@ title: "Paper roundup May 2020"
 categories:
   - Recent papers & pre-prints
 description: |
+  Monthly paper round up on the theme of microscopy advances
 draft: FALSE
 author:
   - name: Mark Rigby
@@ -27,7 +28,7 @@ The first edition of the paper roundup appears to be heavily fluorophore-based. 
 
 ## New, brighter, mEOS3.2 variants
 
-mMaple3 and mEOS3.2 are currently the go to green/red photo-convertible fluoresent proteins for SMLM, however perhaps these new variants developed by Marathe et al now edge it. The newly developed mEosBrite variants that are reported to have higher quantum yield, and reduced cytotoxicity compared to the original mEos3.2.  
+mMaple3 and mEOS4.2 are currently the go to green/red photo-convertible fluoresent proteins for fixed cell SMLM. However, for live SMLM perhaps these new variants developed by Marathe et al now edge it. The newly developed mEosBrite variants that are reported to have higher quantum yield, and reduced cytotoxicity compared to the original mEos3.2.  
 
 https://doi.org/10.1007/s10895-020-02537-8
 <br>

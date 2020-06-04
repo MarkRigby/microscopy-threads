@@ -1,12 +1,24 @@
 name: "microscopy-threads"
-title: "microscopy-threads"
+title: "Microscopy Threads "
 description: |
-  microscopy-threads
+  Blog | Mark Rigby  
 output_dir: "docs"
+#base_url: https://markrigby.github.io/microscopy-threads/
+#favicon: images/favicon2.png
+#collections:
+#  posts:
+#    shortname: microscopy-threads
+#    hidden: false
+#    share: [twitter]
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Useful links"
+      href: Useful_links.html
     - text: "About"
       href: about.html
+#   - icon: fa fa-rss
+#      href: index.xml
 output: distill::distill_article
+

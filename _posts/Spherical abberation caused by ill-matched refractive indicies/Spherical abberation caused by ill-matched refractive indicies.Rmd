@@ -1,5 +1,7 @@
 ---
 title: "Spherical abberation caused by ill-matched refractive indicies"
+categories:
+  - General microscopy
 description: |
   When imaging a 3D volume in an aqueous solution using an oil objective your sample will be artificially and markedly squashed in z. Silicon and water objectives offer a much better solution. 
 author:

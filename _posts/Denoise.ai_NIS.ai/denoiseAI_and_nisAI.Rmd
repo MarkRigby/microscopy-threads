@@ -1,5 +1,7 @@
 ---
 title: "Denoise.ai"
+categories:
+  - NIS-Elements
 description: |
   New tool within NIS-Elements that apply trained convoluted neural networks to your images for the purpose of removing shot noise.
 draft: false
@@ -31,6 +33,8 @@ Denoise.ai is a newly released, pre-trained, convoluted neural network that come
 The denoise.ai neural network has already been trained on 100,000’s of resonant scanner images to be able to distinguish signal, and remove shot noise from images, an inherrant source of noise resulting from the sampling and digitisation of photons by the detector.
 
 Unlike traiditona;y low pass filter methods of image de-noising, denoise.ai does not average pixels over a kernal so there is no loss in resolution when the noise is removed. Furthermore, microscopists can be re-assured that their signal is not 
+
+cc
 
 ```{r, layout="l-body-outset"}
 
