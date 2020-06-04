@@ -16,6 +16,8 @@ navbar:
       href: index.html
     - text: "Useful links"
       href: Useful_links.html
+    - text: "Watchlist"
+      href:  Watchlist.html
     - text: "About"
       href: about.html
 #   - icon: fa fa-rss

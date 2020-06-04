@@ -17,6 +17,23 @@
     "last_modified": "2020-06-04T14:50:38+01:00"
   },
   {
+    "path": "posts/NIS-Elements stitching images/",
+    "title": "Large image acquisition and stitching within NIS-Elements",
+    "description": "Sitching images is not an easy task, recent improvements in the optimal path algorithm in NIS-Elements has markedly reduced artefacts",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-04",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements stitching images/images/preview.PNG",
+    "last_modified": "2020-06-04T15:58:23+01:00"
+  },
+  {
     "path": "posts/202005 paper roundup/",
     "title": "Paper roundup May 2020",
     "description": {},

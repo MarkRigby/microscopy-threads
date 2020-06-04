@@ -1,0 +1,60 @@
+---
+title: "Watchlist"
+description: |
+  Websites, blogs, and twitter feeds worth following for microscopy updates
+draft: false
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/preview.PNG
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Blogs
+
+- [Microscopy matters blog](https://www.aicjanelia.org/blog)
+
+
+- [Kurt's microscopy blog](http://nic.ucsf.edu/blog/) # Although no longer updated, it is still a great resource.
+
+
+## Twitter feeds
+
+
+- [BioImaging UK](https://twitter.com/BioImagingUK)
+
+- [Royal Microscopy Society](https://twitter.com/RoyalMicroSoc)
+
+- [Microscopy scoiety](https://twitter.com/MicroscopySoc)
+
+- [Labrigger](https://twitter.com/Labrigger)
+
+- [Nikon Instruments](https://twitter.com/NikonInst)
+
+
+## Twitter bots
+
+- [Super resolution microscopy papers](https://twitter.com/SRMicro_papers)
+
+- [Nano IJ super-resolution microscopy papers](https://twitter.com/nanomicroscopy)
+
+
+## Youtube channels
+
+- 
+
+
+
+
+
+
