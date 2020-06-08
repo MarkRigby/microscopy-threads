@@ -70,19 +70,19 @@
   {
     "path": "posts/202005 paper roundup/",
     "title": "Paper roundup May 2020",
-    "description": {},
+    "description": "Monthly paper round up on the theme of microscopy advances",
     "author": [
       {
         "name": "Mark Rigby",
         "url": {}
       }
     ],
-    "date": "2020-06-02",
+    "date": "2020-06-08",
     "categories": [
       "Recent papers & pre-prints"
     ],
     "preview": "posts/202005 paper roundup/images/bioRxiv.png",
-    "last_modified": "2020-06-02T12:43:19+01:00"
+    "last_modified": "2020-06-08T20:05:55+01:00"
   },
   {
     "path": "posts/Denoise.ai_NIS.ai/",

@@ -3,7 +3,7 @@ title: "Multi-colour STORM/SMLM experiments"
 categories:
   - SMLM
 description: |
- Multi-colour STORM experiments are not trivial. Using anything other than Alexa 647 is difficult, and different dyes require careful consideration to select appropriate fluorophores and buffer conditions. 
+ Multi-colour STORM experiments are not trivial. Achieving an adequate number of detections with anything other than Alexa 647 is tricky, and careful consideration is needed to select compatible fluorophores and buffer conditions. 
 draft: false
 author:
   - name: Mark Rigby 
