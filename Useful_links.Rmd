@@ -26,31 +26,28 @@ Below are a list of useful links for advice on general microscopy practices, and
 
 ## Fluorescence 
 
-FP base is a great tool for comparing fluoresenct proteins, particularly their interactive chart. It is maintained regularly so a good option for those thinking of new imaging experiments and want to select the most appropriate probe.
+[FPbase](https://www.fpbase.org/) is a great tool for comparing fluorescent proteins, particularly the [interactive chart](https://www.fpbase.org/chart/). It is maintained  regularly so a good option for those thinking of new imaging experiments, and want to select the most appropriate probe.
 
 
-- https://www.fpbase.org/chart/
+The UCSD Nikon Imaging Centre has a useful guide to which [fluorescent proteins](https://nic.ucsd.edu/tips/fps.html) and [dyes](https://nic.ucsd.edu/tips/dyes.html) to select for the standard imaging lines. Things have changed a little since the post, and I would perhaps add the following to the list of those to try:  
 
-The UCSD Nikon Imaging Centre has a useful guide to which fluorescent proteins and dyes to select for the standard imaging lines. I would perhaps add mEOS3.2 brite to the list of photoactivatable proteins, and the newly released msGFP2 to the list of green fluorescent proteins.  
-
-- https://nic.ucsd.edu/tips/fps.html
-
-- https://nic.ucsd.edu/tips/dyes.html
+-  [mEOS3.2 brite](https://link.springer.com/article/10.1007/s10895-020-02537-8)
+-  [msGFP2](https://www.biorxiv.org/content/10.1101/811588v1.full#T1)
+-  [mAvicFP1](https://www.fpbase.org/protein/mavicfp1/)
+-  [mScarlet](https://www.fpbase.org/protein/mscarlet/)
 
 ## General microscopy practices
 
 ### Koehler illumination
 
-
-- https://help.nic.med.harvard.edu/hc/en-us/articles/360019465753-How-do-I-set-up-Koehler-illumination-
-
+Its worth checking on a regular basis if your condenser has been moved out of position and you need to re-Koehler. The Harvard Nikon Imaging Centre have put together a nice [how to guide](https://help.nic.med.harvard.edu/hc/en-us/articles/360019465753-How-do-I-set-up-Koehler-illumination)
 
 
 ### Mounting media for fixed samples
 
-The Nikon Imaging Centre at Harvard recommends to use ProLong Gold (refractive index; 1.47) or Prolong Diamond (refractive index; 1.47, but with superior antifade properties that Gold).  
+For fixed samples, the Nikon Imaging Centre at Harvard recommends to use ProLong Gold (refractive index; 1.47) or Prolong Diamond (refractive index; 1.47, but with superior antifade properties that Gold).  
 
-However, if using an Oil immersion objective, Prolong Glass looks like it may work even better to reduce spherical abberation due to its refractive index of 1.52 after curing (very similar to the refractive index of coverslip glass, and immersion oil).
+However, if using an Oil immersion objective, Prolong Glass looks like it may work even better to reduce spherical aberration due to its refractive index of 1.52 after curing (very similar to the refractive index of coverslip glass, and immersion oil).
 
 - https://nic.med.harvard.edu/resources/media/
 

@@ -22,22 +22,26 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Blogs
 
+- [Microscopy-U news](https://www.microscopyu.com/news)
+
 - [Microscopy matters blog](https://www.aicjanelia.org/blog)
 
+- [The Live Cell Imaging facility @ Karolinska Institutet](Swedenhttps://microscopykarolinska.se/)
 
 - [Kurt's microscopy blog](http://nic.ucsf.edu/blog/) # Although no longer updated, it is still a great resource.
 
+- [Mizar imaging blog](https://www.mizarimaging.com/blog/)
+
+- [Labrigger](http://labrigger.com/blog/)
+
 
 ## Twitter feeds
-
 
 - [BioImaging UK](https://twitter.com/BioImagingUK)
 
 - [Royal Microscopy Society](https://twitter.com/RoyalMicroSoc)
 
 - [Microscopy scoiety](https://twitter.com/MicroscopySoc)
-
-- [Labrigger](https://twitter.com/Labrigger)
 
 - [Nikon Instruments](https://twitter.com/NikonInst)
 

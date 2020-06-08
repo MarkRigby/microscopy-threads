@@ -28,13 +28,11 @@ As with most aspects of life, deep-learning neuronal networks are well and truel
 
 ## Denoise.<span style="color:red">ai</span>
 
-Denoise.ai is a newly released, pre-trained, convoluted neural network that comes as free with the lastest versions of NIS-Elements AR and NIS-Elements C. The later software is used to control the Nikon point scanning confocal (A1R HD25), and the Nikon multi-photon (A1R MP).  
+Denoise.ai is a newly released, pre-trained, convoluted neural network that comes free with the latest versions of NIS-Elements AR and NIS-Elements C. The later software is used to control the Nikon point scanning confocal (A1R HD25), and the Nikon multi-photon (A1R MP).  
 
-The denoise.ai neural network has already been trained on 100,000’s of resonant scanner images to be able to distinguish signal, and remove shot noise from images, an inherrant source of noise resulting from the sampling and digitisation of photons by the detector.
+The denoise.ai neural network has already been trained on 100,000’s of resonant scanner images to be able to distinguish signal, and remove shot noise from images, an inherent source of noise resulting from the sampling and digitisation of photons by the detector.
 
-Unlike traiditona;y low pass filter methods of image de-noising, denoise.ai does not average pixels over a kernal so there is no loss in resolution when the noise is removed. Furthermore, microscopists can be re-assured that their signal is not 
-
-cc
+Unlike, low pass filter methods of image de-noising, denoise.ai does not average or smooth pixels over a kernel, so there is no loss in resolution when the noise is removed. Furthermore, microscopies can be re-assured that their signal is not been falsely manipulated. Below is a comparions with 
 
 ```{r, layout="l-body-outset"}
 

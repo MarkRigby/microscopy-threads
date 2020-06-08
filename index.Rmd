@@ -1,5 +1,8 @@
 ---
 title: "microscopy-threads"
+description: |
+  microscopy-threads
+draft: false
 site: distill::distill_website
 listing: posts
 ---

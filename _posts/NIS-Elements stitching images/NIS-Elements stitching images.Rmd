@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Within NIS-Elements there are a few ways to capture large images  
 
-**1. ND acqusiition**
+**1. ND acquisition**
 
 
 ```{r, fig.cap = "ND acquisition has a Large image tab that automatically creates a stitched image", out.extra="class=external", layout="l-body-outset"}
@@ -39,7 +39,7 @@ knitr::include_graphics("images/nd_acquisition.png")
 **2. Scanning wizard**
 
 
-From version 5.10.00 onwards there is the option to use the scanning wizard from the Addons menu. This feature is in effect a wizardised JOB, and allows bespoke stage areas such as polygons or convex hulls to be defined by moving the stage to your specimen boundries and adding stage coordinates.  
+From version 5.10.00 onward there is the option to use the scanning wizard from the Addons menu. This feature is in effect a wizardised JOB, and allows bespoke stage areas such as polygons or convex hulls to be defined by moving the stage to your specimen boundaries and adding stage coordinates.  
 
 ```{r, fig.cap = "Scanning wizard provides the user the ability to define a bespoke large area to scan", out.extra="class=external", layout="l-body-outset"}
 
@@ -47,9 +47,9 @@ knitr::include_graphics("images/scanning_wizard.png")
 
 ```
 
-**3. ND acqusiiton XY points with custom large image definition selected**
+**3. ND acquisition XY points with custom large image definition selected**
 
-Alternatively, you can acquire multi-position XY images (with an overlap but no stitching), and choose to stich them together afterwards. This is usually recommened as the raw, non-stitched, images are preserved. 
+Alternatively, you can acquire multi-position XY images (with an overlap but no stitching), and choose to stitch them together afterwards. This is usually recommended as the raw, non-stitched, images are preserved. 
 
 
 ```{r, fig.cap = "By using the custom option in the XY tab of ND acqusition the user can preserve the raw, non stitched images, which can be stitched post-acquisition", out.extra="class=external", layout="l-body-outset"}
@@ -58,7 +58,7 @@ knitr::include_graphics("images/nd_acquisition_xy.png")
 
 ```
 
-Following acquisition of the XY multi-points, the user can stitch the image together using the option in Image > ND processing > Stitch multipoints to large image. 
+Following acquisition of the XY multi-points, the user can stitch the image together using the option in Image > ND processing > Stitch multi-points to large image. 
 
 ```{r, fig.cap = "Post-acquisition image stitching GUI", out.extra="class=external", layout="l-body-outset"}
 
@@ -68,9 +68,9 @@ knitr::include_graphics("images/stitching_xyImages.PNG")
 
 **4. JOBs option 1**
 
-Whilst the previous method is a good option, you are confined to the rectanglular shapes that can be defined within ND acquisition. To acquire a bespoke shape, and preseve the non-stitched images you will need to use JOBs.  
+Whilst the previous method is a good option, you are confined to the rectangular shapes that can be defined within ND acquisition. To acquire a bespoke shape, and preserve the non-stitched images you will need to use JOBs.  
 
-Below is an example of a simple JOB that allows you to define the bespoke area by moving the stage around your specimen boundry and adding stage coordinates, generate points based on a user-defined overlap percentage, and then exports the stage positions to the XY tab within ND-acquisition.  
+Below is an example of a simple JOB that allows you to define the bespoke area by moving the stage around your specimen boundary and adding stage coordinates, generate points based on a user-defined overlap percentage, and then exports the stage positions to the XY tab within ND-acquisition.  
 
 
 ```{r, fig.cap = "Use JOBs to define bespoke stage area shape and export stage points to the XY tab of ND acquisition", out.extra="class=external", layout="l-body-outset"}
@@ -79,7 +79,7 @@ knitr::include_graphics("images/JOBs_exporttoND.PNG")
 
 ```
 
-Of course it is also possible to perform this operation completely within JOBs, for instance by implementing capture definition and the capture commands within a point loop.
+Of course it is also possible to perform this operation completely within JOBs, for instance by implementing capture definition and the capture commands within a point loop (image below).
 
 ```{r, fig.cap = "Define bespoke stage area shape within JOBs before using a point loop to acquire the images within the same JOB", out.extra="class=external", layout="l-body-outset"}
 
@@ -93,7 +93,7 @@ What if you do not want to spend time moving the stage around to define your bes
 
 A more precise option is to generate a bespoke large image scan and stitch is to perform a quick rectangular large scan with a low magnification objective, draw around the specimen/s, or region of interest/s, with the ROI tools, and then automatically populate the XY tab of ND acquisition with the relevant stage positions given information on the objective to be subsequently used. It is then possible to 
 
-For this, we include a large image rectangular acquisiton scan in the JOB, specifying the number of x and y tiles and the overlap.   
+For this, we include a large image rectangular acquisition scan in the JOB, specifying the number of x and y tiles and the overlap.   
 
 
 ```{r, fig.cap = "A JOB that uses a quick Large image scan and then provides the user the possibility to define the ROI around their specimen ", out.extra="class=external", layout="l-body-outset"}
@@ -103,7 +103,7 @@ knitr::include_graphics("images/LISCAN_DrawImage.PNG")
 ```
 
 
-Once generated, a run time stitched image will appear, and the Draw Image command will show the ROI tools that can be used to manually, or automatically detect ROIs. Once happy, pressing the right mouse button, and 'Finish' within the ROI tools will generate the stage positions based on the Generate Points command, using the objective an the % overlap specified. In this istance the stage positions are exported to ND acquisiton where the bespoke large image scan can be captured. 
+Once generated, a run time stitched image will appear, and the Draw Image command will show the ROI tools that can be used to manually, or automatically detect ROIs. Once happy, pressing the right mouse button, and 'Finish' within the ROI tools will generate the stage positions based on the Generate Points command, using the objective an the % overlap specified. In this instance the stage positions are exported to ND acquisition where the bespoke large image scan can be captured. 
 
 
 ```{r, fig.cap =  "The JOB gives the option to define ROIs around the sample/s, from which stage positions are generated", out.extra="class=external", layout="l-body-outset"}
@@ -147,7 +147,7 @@ The shading correction is calculated for all channels separately. The background
 
 Note, there are some algorithmic changes in more recent versions of NIS-Elements that have improved the results.
 
-For suggestions on to impletment shading correction into your imaging, Kurt Thorn wrote a [handy blog post](href: Useful_links.html)
+For suggestions on to implement shading correction into your imaging, Kurt Thorn wrote a [handy blog post](href: Useful_links.html)
 
 
 ## Background subtraction
