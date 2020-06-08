@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Microscopy matters blog](https://www.aicjanelia.org/blog)
 
-- [The Live Cell Imaging facility @ Karolinska Institutet](Swedenhttps://microscopykarolinska.se/)
+- [The Live Cell Imaging facility @ Karolinska Institutet](https://microscopykarolinska.se/)
 
 - [Kurt's microscopy blog](http://nic.ucsf.edu/blog/) # Although no longer updated, it is still a great resource.
 
@@ -52,10 +52,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - [Nano IJ super-resolution microscopy papers](https://twitter.com/nanomicroscopy)
 
-
-## Youtube channels
-
-- 
 
 
 
