@@ -3,7 +3,7 @@ title: "Denoise.ai"
 categories:
   - NIS-Elements
 description: |
-  New tool within NIS-Elements that apply trained convoluted neural networks to your images for the purpose of removing shot noise.
+  New tool within NIS-Elements that applies a trained convoluted neural network to your images for the purpose of removing shot noise.
 draft: false
 author:
   - name: Mark Rigby 
@@ -14,7 +14,7 @@ preview: images/denoise.gif
 date: "`r Sys.Date()`"
 output:
   distill::distill_article:
-    toc: true
+    toc: False
     toc_depth: 2
 ---
 
@@ -24,32 +24,40 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-As with most aspects of life, deep-learning neuronal networks are well and truely deployed within microscopy. Nikon offers powerful and simple tools to improve your imaging. 
+As with most aspects of life, deep-learning neuronal networks are well and truly deployed within microscopy. Nikon offers a simple tool to improve your imaging. 
 
 ## Denoise.<span style="color:red">ai</span>
 
-Denoise.ai is a newly released, pre-trained, convoluted neural network that comes free with the latest versions of NIS-Elements AR and NIS-Elements C. The later software is used to control the Nikon point scanning confocal (A1R HD25), and the Nikon multi-photon (A1R MP).  
+Denoise.<span style="color:red">ai</span> is a newly released, pre-trained, convoluted neural network that comes free with the latest versions of NIS-Elements AR and NIS-Elements C. The later software is used to control the Nikon point scanning confocal ([A1R HD25](https://www.microscope.healthcare.nikon.com/products/confocal-microscopes/a1hd25-a1rhd25)), and the Nikon multi-photon ([A1R MP](https://www.microscope.healthcare.nikon.com/products/multiphoton-microscopes/a1r-hd-mp)).  
 
-The denoise.ai neural network has already been trained on 100,000’s of resonant scanner images to be able to distinguish signal, and remove shot noise from images, an inherent source of noise resulting from the sampling and digitisation of photons by the detector.
+Denoise.<span style="color:red">ai</span> employs the MXNET framework pre-trained on 100,000’s of resonant scanner images in order to distinguish signal, from noise. Specifically, it removes shot noise that results from the sampling and digitisation of photons by the photon multiple tubes.
 
-Unlike, low pass filter methods of image de-noising, denoise.ai does not average or smooth pixels over a kernel, so there is no loss in resolution when the noise is removed. Furthermore, microscopies can be re-assured that their signal is not been falsely manipulated. Below is a comparions with 
+Unlike, low pass filter methods of image de-noising, Denoise.<span style="color:red">ai</span> does not average or smooth pixels over a kernel, so there is no loss in resolution when the noise is removed. Furthermore, microscopists can be re-assured that their signal has not been falsely manipulated. By acquiring a 'ground-truth' image using high line averaging (e.g. 64x), and comparing it to a low line averaged image, which Denoise.<span style="color:red">ai</span> has been applied to, users can test the effect of processing themselves. Below is an example:
 
-```{r, layout="l-body-outset"}
+```{r, fig.cap =  "Raw confocal and AI-denoised images (top), with an intensity profile line overlaid for comparison (bottom). The intensity profile of the Denoise.ai image is maintained against the original intensity, but removes the shot noise variance visible in the raw image (blue line). Image: microtubules, 60x.", layout="l-body-outset"}
 
 knitr::include_graphics("images/denoiseAI_example.PNG")
 
 ```
 
-Usually with a point scanning confocal the way to improve your image and remove noise is to average or Integrate over a higher number of line scans. The removal of shot noise from images using denoise.ai effectively allows you to image faster by reducing the number of line scans for equivalent signals
-To noise. 
+For those who prefer not to take measurements from any processed image, Denoise.<span style="color:red">ai</span> can still be of use for segmentation. By applying the Denoise.<span style="color:red">ai</span> to clean up the image post-acquisition, regions of interest are more easily segmented into a binary layer. The binary layer can then be over-layed on the raw, unprocessed, image to take measurements. An example is shown below using General analysis 3 in NIS-Elements:
 
-Nikon’s point scanning confocal has both resonant and galvanic scan heads. Although trained on the resonant scanner it works very well on the galvo scanner as well. As a boncus denoise.AI, when demoing the SoRa super resolution spinnng disk, we have also found the network works well on back illuminated sCMOS cameras such as the Photometrics Prime BSI.
+```{r, fig.cap =  "General analysis 3 pipeline showing how Denoise.ai can be implemented to improve image segmentation of raw images, here the mean intensity of GFP was measured using the binary layer attained from the denoised image", layout="l-body-outset"}
 
-More information can be found a the Nikon website:  
+knitr::include_graphics("images/GA3.PNG")
 
-https://www.microscope.healthcare.nikon.com/products/confocal-microscopes/a1hd25-a1rhd25/nis-elements-ai
+```
 
-And in application note:
 
-https://www.nature.com/articles/d42473-019-00355-6
+When imaging with a point scanning confocal, a common method to improve the image is to by remove noise by averaging or integrating over a high number of line scans. The removal of shot noise from images using Denoise.<span style="color:red">ai</span> effectively allows the user to image faster by reducing the number of line scans to achieve equivalent signal-to-noise. We recommend that users empirically determine the line averaging they require with denoise.ai turned on, image with denoise.ai turned off, and apply the neural network post-acquisition. In that way the user retains the raw, unprocessed image if they needed to return to it. This has obvious advantages, namely it facilitates a higher throughput and speed of imaging, reduces the cost of using imaging facility microscopes, and by reducing the number of line scans required, reduces the chances of photo-bleaching. Moreover, for live imaging, Denoise.<span style="color:red">ai</span> allows users to achieve higher frame rates. 
+
+
+Nikon’s point scanning confocal has both resonant and galvanic scan heads. Although trained on the resonant scanner, Denoise.<span style="color:red">ai</span> also works very well on the galvo scanner. As an unforeseen bonus, when demoing the SoRa super resolution spinning disk, we have also found the network works well on back illuminated sCMOS cameras such as the Photometrics Prime BSI when there is sufficient signal to noise in the raw image. Given the common usage of spinning disks for live imaging, Denoise.<span style="color:red">ai</span> could potentially be very 
+
+More information can be found on the [Nikon website](https://www.microscope.healthcare.nikon.com/products/confocal-microscopes/a1hd25-a1rhd25/nis-elements-ai), and within an [application note](https://www.nature.com/articles/d42473-019-00355-6)
+
+
+## Acknowledgments {.appendix}
+
+Thanks to Christelle Rosazza at Nikon for suggesting Denoise.<span style="color:red">ai</span> can be used effectively on the Prime BSI.
 
