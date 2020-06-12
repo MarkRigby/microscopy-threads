@@ -1,7 +1,7 @@
 [
   {
     "path": "posts/JOB for specifying break during acquiisition/",
-    "title": "JOB for specifying break during acquiisition",
+    "title": "JOB for specifying break during acquisition",
     "description": "The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.",
     "author": [
       {
@@ -13,8 +13,8 @@
     "categories": [
       "NIS-Elements"
     ],
-    "preview": {},
-    "last_modified": "2020-06-12T13:30:07+01:00",
+    "preview": "posts/JOB for specifying break during acquiisition/images/preview.png",
+    "last_modified": "2020-06-12T13:42:06+01:00",
     "input_file": "JOB-for-specifying-break-during-acquiisition.utf8.md"
   },
   {
