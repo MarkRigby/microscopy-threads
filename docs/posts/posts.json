@@ -15,7 +15,7 @@
     ],
     "preview": "posts/JOB for specifying break during acquiisition/images/preview.png",
     "last_modified": "2020-06-12T13:42:06+01:00",
-    "input_file": "JOB-for-specifying-break-during-acquiisition.utf8.md"
+    "input_file": {}
   },
   {
     "path": "posts/Denoise.ai_NIS.ai/",
@@ -32,7 +32,8 @@
       "NIS-Elements"
     ],
     "preview": "posts/Denoise.ai_NIS.ai/images/denoise.gif",
-    "last_modified": "2020-06-09T12:12:58+01:00"
+    "last_modified": "2020-06-09T12:12:58+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/202005 paper roundup/",
@@ -49,7 +50,8 @@
       "Recent papers & pre-prints"
     ],
     "preview": "posts/202005 paper roundup/images/bioRxiv.png",
-    "last_modified": "2020-06-08T20:05:56+01:00"
+    "last_modified": "2020-06-08T20:05:56+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/Multi-colour STORM_SMLM/",
@@ -66,7 +68,8 @@
       "SMLM"
     ],
     "preview": "posts/Multi-colour STORM_SMLM/images/multi-colour_SMLM_preview.PNG",
-    "last_modified": "2020-06-08T17:31:41+01:00"
+    "last_modified": "2020-06-08T17:31:41+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/NIS-Elements stitching images/",
@@ -83,7 +86,8 @@
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements stitching images/images/preview.PNG",
-    "last_modified": "2020-06-08T11:42:44+01:00"
+    "last_modified": "2020-06-08T11:42:44+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/NIS-Elements Ti2 pad alternative/",
@@ -100,7 +104,8 @@
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
-    "last_modified": "2020-06-08T12:12:39+01:00"
+    "last_modified": "2020-06-08T12:12:39+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/NIS-Elements tips and tricks 1/",
@@ -117,7 +122,8 @@
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements tips and tricks 1/images/preview.png",
-    "last_modified": "2020-06-08T12:12:29+01:00"
+    "last_modified": "2020-06-08T12:12:29+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/NIS-Elements tips and tricks 2 Options/",
@@ -134,7 +140,8 @@
       "NIS-Elements"
     ],
     "preview": "posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG",
-    "last_modified": "2020-06-02T09:29:03+01:00"
+    "last_modified": "2020-06-02T09:29:03+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/202005 twitter roundup/",
@@ -151,7 +158,8 @@
       "Twitter posts"
     ],
     "preview": "posts/202005 twitter roundup/images/twitter_logo.PNG",
-    "last_modified": "2020-05-28T13:06:12+01:00"
+    "last_modified": "2020-05-28T13:06:12+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/welcome/",
@@ -166,6 +174,7 @@
     "date": "2020-05-18",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-05-18T15:41:27+01:00"
+    "last_modified": "2020-05-18T15:41:27+01:00",
+    "input_file": {}
   }
 ]
