@@ -29,7 +29,7 @@ Below are a list of useful links for advice on general microscopy practices, and
 [FPbase](https://www.fpbase.org/) is a great tool for comparing fluorescent proteins, particularly the [interactive chart](https://www.fpbase.org/chart/). It is maintained  regularly so a good option for those thinking of new imaging experiments, and want to select the most appropriate probe.
 
 
-The UCSD Nikon Imaging Centre has a useful guide to which [fluorescent proteins](https://nic.ucsd.edu/tips/fps.html) and [dyes](https://nic.ucsd.edu/tips/dyes.html) to select for the standard imaging lines. Things have changed a little since the post, and I would perhaps add the following to the list of those to try:  
+The UCSD Nikon Imaging Centre has a useful guide to which [fluorescent proteins](https://nic.ucsd.edu/tips/fps.html) and [dyes](https://nic.ucsd.edu/tips/dyes.html) to select for the standard imaging lines. Things have changed a little since the post, and I would perhaps add the following fluorescent proteins to the list of those to try:  
 
 -  [mEOS3.2 brite](https://link.springer.com/article/10.1007/s10895-020-02537-8)
 -  [msGFP2](https://www.biorxiv.org/content/10.1101/811588v1.full#T1)
@@ -45,7 +45,7 @@ Its worth checking on a regular basis if your condenser has been moved out of po
 
 ### Mounting media for fixed samples
 
-For fixed samples, the Nikon Imaging Centre at Harvard recommends to use ProLong Gold (refractive index; 1.47) or Prolong Diamond (refractive index; 1.47, but with superior antifade properties that Gold).  
+For fixed samples, the Nikon Imaging Centre at Harvard recommends to use ProLong Gold (refractive index; 1.47) or Prolong Diamond (refractive index; 1.47, but with superior anti-fade properties that Gold).  
 
 However, if using an Oil immersion objective, Prolong Glass looks like it may work even better to reduce spherical aberration due to its refractive index of 1.52 after curing (very similar to the refractive index of coverslip glass, and immersion oil).
 
@@ -54,26 +54,23 @@ However, if using an Oil immersion objective, Prolong Glass looks like it may wo
 
 ### Tips from Northwestern Nikon Imaging Centre
 
-They have a nice 
-
-
-
-
-- http://nic.feinberg.northwestern.edu/main/tips.html
-
+[General advice and tips](http://nic.feinberg.northwestern.edu/main/tips.html)
 
 ## Nikon microscope and NIS-Elements FAQs
 
-The Nikon Imaging Centre at Harvard has put together some great FAQs for using Nikon microscopes:
-
-- https://help.nic.med.harvard.edu/hc/en-us
-
+The Nikon Imaging Centre at Harvard has put together some great [FAQs](https://help.nic.med.harvard.edu/hc/en-us) for using Nikon microscopes:
 
 
 ## NIS-Elements How To Guides
 
-How to guides for 
-- https://nic.kcl.ac.uk/wiki/nis-elements-technical-notes/
+[How to guides](https://nic.kcl.ac.uk/wiki/nis-elements-technical-notes/) for  
+
+- ND processing tools
+- Creating an AVI
+- Using the ROI tools
+- Setting up autofocus routines
+- Photo-stimulation on the A1R point scanning confocal
+- Creating a ratio image
 
 
 A bit out-dated now but still some useful how to's
@@ -83,10 +80,16 @@ A bit out-dated now but still some useful how to's
 
 ## Nikon microscope guides
 
-The following links will have some instructions that are specific to particular microscopes within particualr instiutions. However, they still contain alot of useful advice applicable to all systems of the same type.
+Though specific to their particular microscopes, the following how to guides still contain a lot of useful advice applicable to all systems of the same type.
 
-Isma Ali, Virginia Silio, Dan Matthews, and now James Levitt manage or have managed the microscoeps at the Nikon Imaging Centre at King's College London. They have put together some useful guides on the Ti- based A1 point scanning confocal, the Ti-based A1R point scanning confocal, the Ni-based upright multi-photon confocoal, a Ti2-based widefield system, and a Ti-based X1 spinning disk system.
+The NIC @ KCL have detailed [instructions](https://nic.kcl.ac.uk/wiki/user-guides/) 
 
-- https://nic.kcl.ac.uk/wiki/user-guides/
+- Ti-based inverted A1 point scanning confocal 
+- Ti-based inverted A1R point scanning confocal, 
+- Ni-based upright multi-photon confocal
+- Ti2-based inverted wide-field system, 
+- Ti-based inverted X1 spinning disk system.
+
+The NIC @ UCSD also has a thorough how to guide for their wide-field microscope named [cyril](https://nic.ucsd.edu/guides/index.html)
 
 

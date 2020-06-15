@@ -15,6 +15,7 @@ collections:
 twitter:
   site: "@markrigbu"
   creator: "@markrigbu"
+google_analytics: "UA-169407365-1"
 navbar:
   right:
     - text: "Home"

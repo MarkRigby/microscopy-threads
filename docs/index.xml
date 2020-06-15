@@ -14,6 +14,15 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Mizar Tilt lightsheet microscope</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</link>
+      <description>Mizar tilt brings light sheet microscopy to any inverted  microscope</description>
+      <category>Lightsheet</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
       <dc:creator>Mark Rigby</dc:creator>
       <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</link>
@@ -22,15 +31,6 @@
       <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</guid>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative/images/system_information.png" medium="image" type="image/png" width="582" height="277"/>
-    </item>
-    <item>
-      <title>Mizar Tilt lightsheet microscope</title>
-      <dc:creator>Mark Rigby</dc:creator>
-      <link>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</link>
-      <description>Mizar tilt brings light sheet microscopy to any inverted  microscope</description>
-      <category>Lightsheet</category>
-      <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JOB for specifying break during acquisition</title>
