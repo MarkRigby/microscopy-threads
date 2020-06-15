@@ -1,5 +1,43 @@
 [
   {
+    "path": "posts/NIS-Elements Ti2 pad alternative/",
+    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
+    "last_modified": "2020-06-15T13:20:34+01:00",
+    "input_file": "NIS-Elements-Ti2-pad-alternative.utf8.md",
+    "preview_width": 582,
+    "preview_height": 277
+  },
+  {
+    "path": "posts/Mizar Tilt/",
+    "title": "Mizar Tilt lightsheet microscope",
+    "description": "Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "Lightsheet"
+    ],
+    "preview": {},
+    "last_modified": "2020-06-15T13:45:24+01:00",
+    "input_file": "Mizar-Tilt.utf8.md"
+  },
+  {
     "path": "posts/JOB for specifying break during acquiisition/",
     "title": "JOB for specifying break during acquisition",
     "description": "The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.",
@@ -87,24 +125,6 @@
     ],
     "preview": "posts/NIS-Elements stitching images/images/preview.PNG",
     "last_modified": "2020-06-08T11:42:44+01:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/NIS-Elements Ti2 pad alternative/",
-    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
-    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-06-08",
-    "categories": [
-      "NIS-Elements"
-    ],
-    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
-    "last_modified": "2020-06-08T12:12:39+01:00",
     "input_file": {}
   },
   {

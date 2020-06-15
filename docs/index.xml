@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Microscopy Threads</title>
+    <link>https://markrigby.github.io/microscopy-threads/</link>
+    <atom:link href="https://markrigby.github.io/microscopy-threads/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Blog mark rigby  
+</description>
+    <image>
+      <title>Microscopy Threads</title>
+      <url>https://markrigby.github.io/microscopy-threads/images/favicon2.png</url>
+      <link>https://markrigby.github.io/microscopy-threads/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</link>
+      <description>The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</guid>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative/images/system_information.png" medium="image" type="image/png" width="582" height="277"/>
+    </item>
+    <item>
+      <title>Mizar Tilt lightsheet microscope</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</link>
+      <description>Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope</description>
+      <category>Lightsheet</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
+      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JOB for specifying break during acquisition</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</link>
+      <description>The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</guid>
+      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition/images/preview.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Denoise.ai</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Denoise.ai_NIS.ai</link>
+      <description>New tool within NIS-Elements that applies a trained convoluted neural network to your images for the purpose of removing shot noise.</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Denoise.ai_NIS.ai</guid>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Denoise.ai_NIS.ai/images/denoise.gif" medium="image" type="image/gif"/>
+    </item>
+    <item>
+      <title>Paper roundup May 2020</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup</link>
+      <description>Monthly paper round up on the theme of microscopy advances</description>
+      <category>Recent papers &amp; pre-prints</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup</guid>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup/images/bioRxiv.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Multi-colour STORM/SMLM experiments</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM</link>
+      <description>Multi-colour STORM experiments are not trivial. Using anything other than Alexa 647 is difficult, and different dyes require careful consideration to select appropriate fluorophores and buffer conditions.</description>
+      <category>SMLM</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM</guid>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM/images/multi-colour_SMLM_preview.PNG" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Large image acquisition and stitching within NIS-Elements</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images</link>
+      <description>Sitching images is not an easy task, recent improvements in the optimal path algorithm in NIS-Elements has markedly reduced artefacts</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images</guid>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images/images/preview.PNG" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Tips and tricks for NIS-Elements #1</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1</link>
+      <description>Some suggestions to improve the user experience within NIS-Elements.</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1</guid>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1/images/preview.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>NIS-Elements tips and tricks #2 - Options</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options</link>
+      <description>How best to configure the options menu within NIS-Elements</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options</guid>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>May 2020 Twitter roundup</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup</link>
+      <description>Microsocpy based twitter posts that have caught my attention this month</description>
+      <category>Twitter posts</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup</guid>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup/images/twitter_logo.PNG" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>Welcome to microscopy-threads</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/welcome</link>
+      <description>Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.</description>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/welcome</guid>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

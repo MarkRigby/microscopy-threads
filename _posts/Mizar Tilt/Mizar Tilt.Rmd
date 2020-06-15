@@ -1,0 +1,80 @@
+---
+title: "Mizar Tilt lightsheet microscope"
+categories:
+  - Lightsheet
+description: |
+  Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope
+draft: false
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/preview.PNG
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## How it works
+
+The Mizar Tilt works on the Lateral Interference Tilted Excitation principle [(Fadero, et al., 2018)](https://doi.org/10.1083/jcb.201710087) to generate light sheet illumination using a cylindrical lens rather than scanning XY galvano mirrors. The advantage of the cylindrical lens is that it reduces the power density, and consequentially the rates of fluorescence bleaching and photo-toxicity.  
+ 
+One trade off using a cylindrical lens is that typically either a short, thick sheet of light, or a long, thin sheet of light, is created. Most samples to do not fit this criteria. To circumvent this, the Tilt focuses 4 converging light sheets through the cylindrical lens. At their focal point, above the emission objective, the 4 sheets create an interference pattern that elongates the light sheet by ~6X. The sample can then be scanned through the light sheet using the stage. 
+
+To make the Tilt compatible with high NA, low working distance, objectives, the light sheet generation apparatus is tilted at an angle of 3.3 degrees to create the focal point at the coverslip. 
+
+## Light sheet specs
+
+- Thickness 4.3 microns (FWHM)
+- Length ~ 300 microns
+- Wavelength range 400 – 700 nm
+
+
+## Hardware
+
+Mizar Tilt can be mounted on inverted microscopes such as the [Ti2](https://www.microscope.healthcare.nikon.com/products/inverted-microscopes/eclipse-ti2-series). It uses a single mode fibre (FC/APC or FC/PC input) to generate the converging tilted lightsheets that enters the sample parallel to the surface of the coverslip.  
+
+The fluorescence emission is collected by any inverted microscope objective you wish to use. As the light sheet is tilted, its focal point is very close to the coverslip allowing it to be used with high NA magnification, low working distance objectives, as well as low mag, large FOV objectives.  
+
+As the light sheet is fixed, the only controllable aspect is the stage. The whole Tilt apparatus is mounted on an XYZ piezo for rapid movement over an XY range of 25 x 50 mm, and a Z range of 300 um. It can be controlled either by using analog voltage input using a NiDAQ interface card. Or, the stage can be controlled using a ms2000 ASI controller, which for NIS -Elements requires the modules MQS41100 NIS-D STAGE for XY control, and MQS41320 NIS-D Z DRIVE for z control.
+
+Given that it can be mounted on the stage, it can be combined with other imaging modalities, such as point scanners, spinning disks, TIRF, SIM.
+
+
+## Samples
+
+Samples are recommended to be held within #1.5 glass-bottomed [4 well chamber slides](https://ibidi.com/glass-bottom/181--slide-4-well-glass-bottom.html), or [8 well chamber slides](https://ibidi.com/glass-bottom/183--slide-8-well-glass-bottom.html). Apparently the sides of these chambers are flat enough not to impact the illumination lightsheet. Mizar also supply cuvettes for imaging large organisms. Users can also make their own sample holders from PDMS. Samples cannot be held using round dishes.
+
+## Temperature control
+
+[OkoLab](http://www.oko-lab.com/live-cell-imaging/stage-top-digital-gas/chamber/light-sheet/h301-mizar-tilt) currently make 3 different enclosures to control for either  temperature, CO2, and humidity (H301-Mizar_Tilt), just CO2 and humidity (H201-Mizar_Tilt), or heating and cooling applications. 
+
+
+[## Sample preperation](https://www.mizarimaging.com/thick-specimen-sample-prep-tilt/)
+
+Little consideration is required relative to other commercial lightsheet systems. Though Mizar do recommend:  
+
+- Plating cells at low density to reduce the tissue the lightsheet needs to pass through. This helps to mnimise the striping artefacts that is often observed with lightsheet imaging, though see this [paper](https://doi.org/10.1063/1.5016546) for other ways to mitigate this.
+- Orientate samples, or organisms so light passes through as little tissue as possible, and the light sheet hits the object of interest as early as possible.
+- Bathing the sample with plenty of filtered media.
+- To use [Optiprep](https://www.stemcell.com/optipreptm.html) to raise the refractive index of the media to be closer to the refrative index of the cells.
+
+
+
+
+## Acknowledgments {.appendix}
+
+https://www.mizarimaging.com/how-the-tilt-works-an-understanding-of-l-i-t-e/
+
+https://www.youtube.com/watch?v=vXuTntvB6fY&list=PL2t2235IJNOqgDT6nQLeM2K4QTmiElLiy&index=2
+
+
+
+

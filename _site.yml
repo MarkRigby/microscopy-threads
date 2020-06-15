@@ -3,13 +3,18 @@ title: "Microscopy Threads"
 description: |
   Blog mark rigby  
 output_dir: "docs"
-#base_url: https://markrigby.github.io/microscopy-threads/
-#favicon: images/favicon2.png
-#collections:
-#  posts:
-#    shortname: microscopy-threads
-#    hidden: false
-#    share: [twitter]
+base_url: https://markrigby.github.io/microscopy-threads/
+repository_url: https://github.com/MarkRigby/microscopy-threads
+favicon: images/favicon2.png
+collections:
+  posts:
+    shortname: microscopy-threads
+    hidden: false
+    disqus: microscopy-threads
+    share: [twitter]
+twitter:
+  site: "@markrigbu"
+  creator: "@markrigbu"
 navbar:
   right:
     - text: "Home"
@@ -20,7 +25,7 @@ navbar:
       href:  Watchlist.html
     - text: "About"
       href: about.html
-#   - icon: fa fa-rss
-#      href: index.xml
+    - icon: fa fa-rss
+      href: index.xml
 output: distill::distill_article
 
