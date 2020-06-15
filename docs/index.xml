@@ -14,6 +14,15 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Mizar Tilt lightsheet microscope</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</link>
+      <description>Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope</description>
+      <category>Lightsheet</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
       <dc:creator>Mark Rigby</dc:creator>
       <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</link>
@@ -24,15 +33,6 @@
       <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative/images/system_information.png" medium="image" type="image/png" width="582" height="277"/>
     </item>
     <item>
-      <title>Mizar Tilt lightsheet microscope</title>
-      <dc:creator>Mark Rigby</dc:creator>
-      <link>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</link>
-      <description>Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope</description>
-      <category>Lightsheet</category>
-      <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
-      <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>JOB for specifying break during acquisition</title>
       <dc:creator>Mark Rigby</dc:creator>
       <link>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</link>
@@ -40,7 +40,7 @@
       <category>NIS-Elements</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</guid>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition/images/preview.png" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition/images/preview.png" medium="image" type="image/png" width="483" height="127"/>
     </item>
     <item>
       <title>Denoise.ai</title>
@@ -60,7 +60,7 @@
       <category>Recent papers &amp; pre-prints</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup</guid>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup/images/bioRxiv.png" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 paper roundup/images/bioRxiv.png" medium="image" type="image/png" width="628" height="254"/>
     </item>
     <item>
       <title>Multi-colour STORM/SMLM experiments</title>
@@ -70,7 +70,7 @@
       <category>SMLM</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM</guid>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM/images/multi-colour_SMLM_preview.PNG" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Multi-colour STORM_SMLM/images/multi-colour_SMLM_preview.PNG" medium="image" type="image/png" width="602" height="406"/>
     </item>
     <item>
       <title>Large image acquisition and stitching within NIS-Elements</title>
@@ -80,7 +80,7 @@
       <category>NIS-Elements</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images</guid>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images/images/preview.PNG" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements stitching images/images/preview.PNG" medium="image" type="image/png" width="1012" height="627"/>
     </item>
     <item>
       <title>Tips and tricks for NIS-Elements #1</title>
@@ -90,7 +90,7 @@
       <category>NIS-Elements</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1</guid>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1/images/preview.png" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 1/images/preview.png" medium="image" type="image/png" width="742" height="429"/>
     </item>
     <item>
       <title>NIS-Elements tips and tricks #2 - Options</title>
@@ -100,7 +100,7 @@
       <category>NIS-Elements</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options</guid>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG" medium="image" type="image/png" width="709" height="364"/>
     </item>
     <item>
       <title>May 2020 Twitter roundup</title>
@@ -110,7 +110,7 @@
       <category>Twitter posts</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup</guid>
       <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup/images/twitter_logo.PNG" medium="image" type="image/png"/>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/202005 twitter roundup/images/twitter_logo.PNG" medium="image" type="image/png" width="475" height="300"/>
     </item>
     <item>
       <title>Welcome to microscopy-threads</title>
