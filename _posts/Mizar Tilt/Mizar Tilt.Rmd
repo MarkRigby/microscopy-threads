@@ -3,7 +3,7 @@ title: "Mizar Tilt lightsheet microscope"
 categories:
   - Lightsheet
 description: |
-  Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope
+  Mizar tilt brings light sheet microscopy to any inverted  microscope
 draft: false
 author:
   - name: Mark Rigby 
@@ -19,7 +19,11 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE)
+library(twitterwidget)
+library(knitr)
+
 ```
 
 ## How it works
@@ -40,6 +44,26 @@ To make the Tilt compatible with high NA, low working distance, objectives, the 
 ## Hardware
 
 Mizar Tilt can be mounted on inverted microscopes such as the [Ti2](https://www.microscope.healthcare.nikon.com/products/inverted-microscopes/eclipse-ti2-series). It uses a single mode fibre (FC/APC or FC/PC input) to generate the converging tilted lightsheets that enters the sample parallel to the surface of the coverslip.  
+
+
+
+```{r twitter 1, layout="l-body"}
+
+twitterwidget('898258619464126465')
+
+```
+
+<br>  
+
+<br>  
+
+<br>  
+
+<br>  
+
+<br>
+
+<br>
 
 The fluorescence emission is collected by any inverted microscope objective you wish to use. As the light sheet is tilted, its focal point is very close to the coverslip allowing it to be used with high NA magnification, low working distance objectives, as well as low mag, large FOV objectives.  
 

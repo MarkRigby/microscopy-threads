@@ -1,23 +1,5 @@
 [
   {
-    "path": "posts/Mizar Tilt/",
-    "title": "Mizar Tilt lightsheet microscope",
-    "description": "Mizar tilt brings light sheet microscopy to Nikon's flagship Ti2 inverted microscope",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-06-15",
-    "categories": [
-      "Lightsheet"
-    ],
-    "preview": {},
-    "last_modified": "2020-06-15T13:45:24+01:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/NIS-Elements Ti2 pad alternative/",
     "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
     "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
@@ -36,6 +18,24 @@
     "input_file": {},
     "preview_width": 582,
     "preview_height": 277
+  },
+  {
+    "path": "posts/Mizar Tilt/",
+    "title": "Mizar Tilt lightsheet microscope",
+    "description": "Mizar tilt brings light sheet microscopy to any inverted  microscope",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "Lightsheet"
+    ],
+    "preview": {},
+    "last_modified": "2020-06-15T14:28:19+01:00",
+    "input_file": "Mizar-Tilt.utf8.md"
   },
   {
     "path": "posts/JOB for specifying break during acquiisition/",
