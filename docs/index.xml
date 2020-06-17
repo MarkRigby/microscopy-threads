@@ -12,7 +12,7 @@
       <link>https://markrigby.github.io/microscopy-threads/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Mizar Tilt lightsheet microscope</title>
       <dc:creator>Mark Rigby</dc:creator>
@@ -20,18 +20,8 @@
       <description>Mizar tilt brings light sheet microscopy to any inverted  microscope</description>
       <category>Lightsheet</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       <media:content url="https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt/images/preview.png" medium="image" type="image/png" width="1783" height="1047"/>
-    </item>
-    <item>
-      <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
-      <dc:creator>Mark Rigby</dc:creator>
-      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</link>
-      <description>The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.</description>
-      <category>NIS-Elements</category>
-      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</guid>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative/images/system_information.png" medium="image" type="image/png" width="582" height="277"/>
     </item>
     <item>
       <title>JOB for specifying break during acquisition</title>
@@ -43,6 +33,16 @@
       <guid>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</guid>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <media:content url="https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition/images/preview.png" medium="image" type="image/png" width="483" height="127"/>
+    </item>
+    <item>
+      <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</link>
+      <description>The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative</guid>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ti2 pad alternative/images/system_information.png" medium="image" type="image/png" width="582" height="277"/>
     </item>
     <item>
       <title>Denoise.ai</title>
