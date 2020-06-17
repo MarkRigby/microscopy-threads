@@ -12,7 +12,7 @@
       <link>https://markrigby.github.io/microscopy-threads/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Mizar Tilt lightsheet microscope</title>
       <dc:creator>Mark Rigby</dc:creator>
@@ -20,8 +20,8 @@
       <description>Mizar tilt brings light sheet microscopy to any inverted  microscope</description>
       <category>Lightsheet</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt</guid>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt/images/preview.PNG" medium="image" type="image/png" width="1783" height="1047"/>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/Mizar Tilt/images/preview.png" medium="image" type="image/png" width="1783" height="1047"/>
     </item>
     <item>
       <title>Alternatives to the Ti/Ti2 pad in NIS Elements</title>
@@ -39,8 +39,9 @@
       <link>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</link>
       <description>The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.</description>
       <category>NIS-Elements</category>
+      <category>JOBs</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition</guid>
-      <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <media:content url="https://markrigby.github.io/microscopy-threads/posts/JOB for specifying break during acquiisition/images/preview.png" medium="image" type="image/png" width="483" height="127"/>
     </item>
     <item>

@@ -95,9 +95,12 @@ Little consideration is required relative to other commercial lightsheet systems
 
 ## Acknowledgments {.appendix}
 
-https://www.mizarimaging.com/how-the-tilt-works-an-understanding-of-l-i-t-e/
+Preview image taken from taken from https://www.mizarimaging.com/how-tilt-light-sheet-works/
 
-https://www.youtube.com/watch?v=vXuTntvB6fY&list=PL2t2235IJNOqgDT6nQLeM2K4QTmiElLiy&index=2
+Document was prepared after watching the following videos: 
+
+- https://www.mizarimaging.com/how-the-tilt-works-an-understanding-of-l-i-t-e/
+- https://www.youtube.com/watch?v=vXuTntvB6fY&list=PL2t2235IJNOqgDT6nQLeM2K4QTmiElLiy&index=2
 
 
 

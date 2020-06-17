@@ -2,6 +2,7 @@
 title: "JOB for specifying break during acquisition"
 categories:
   - NIS-Elements
+  - JOBs
 description: |
   The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.
 draft: false

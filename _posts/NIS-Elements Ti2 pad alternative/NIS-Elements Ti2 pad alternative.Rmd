@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-The Ti2 pad has alot of information. The user has full control over the microscope and can select objectives, filter cubes, shutters, light path, diascopic light intensity, among many more features. However, typically users will encode the majority of this information within an optical configuration (OC), and not interact with the Ti2 pad during their experiments, except perhaps to change the objective.  
+The Ti2 pad has a lot of information. The user has full control over the microscope and can select objectives, filter cubes, shutters, light path, diascopic light intensity, among many more features. However, typically users will encode the majority of this information within an optical configuration (OC), and not interact with the Ti2 pad during their experiments, except perhaps to change the objective.  
 
 ```{r, fig.cap = "The Ti2 pad occupying a large amount of precious screen space", out.extra="class=external", layout="l-screen"}
 
@@ -35,7 +35,7 @@ knitr::include_graphics("images/tipad.png")
 ```
 
 
-It is not possible to remove controls from the Ti2 pad without reducing functionality, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to provide information on the XYZ position of the stafe, perfect focus system offset, amongst additional readouts, whilst saving significant screen space. 
+It is not possible to remove controls from the Ti2 pad without reducing functionality, and so this post provides an alternative solution, which uses the macro panel as an objective selector, and the system information pad to provide information on the XYZ position of the stage, perfect focus system offset, amongst additional readouts, whilst saving significant screen space. 
 
 
 ```{r, fig.cap = "Macro panel allows users to select objectives, and system information panel gives control over the PFS as well as a showing the z position plotted against time", out.extra="class=external", layout="l-screen"}
@@ -45,7 +45,7 @@ include_graphics("images/ammended_layout.png")
 ```
 
 
-To change to the later setup, firstly, set up the macro panel to execute commands that change the nosepiece position. Screenshots from the Ti2 pad objectives can be taken and associated with the relevant macro button.
+To change to the later setup, firstly, set up the macro panel to execute commands that change the nose-piece position. Screen-shots from the Ti2 pad objectives can be taken and associated with the relevant macro button.
 
 ```{r, layout="l-body-outset"}
 
@@ -54,7 +54,7 @@ include_graphics("images/setup_macro_panel.png")
 ```
 
 
-Next open the system information panel from visualisation controls, and dock below the macro panel. System information can be tailored to show the session time, experiment time elapsed, X, Y, and Z position. I personally find having the absolute z-poisition displayed on the y-axis versus time to be extremely useful, though many other variables could be displayed instead or at the same time.
+Next open the system information panel from visualisation controls, and dock below the macro panel. System information can be tailored to show the session time, experiment time elapsed, X, Y, and Z position. I personally find having the absolute z-position displayed on the y-axis versus time to be extremely useful, though many other variables could be displayed instead or at the same time.
 
 
 ```{r, layout="l-body-outset"}
