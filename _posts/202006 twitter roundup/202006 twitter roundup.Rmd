@@ -1,0 +1,134 @@
+---
+title: "Twitter roundup June 2020"
+categories:
+  - Twitter posts
+description: |
+  Microsocpy based twitter posts that have caught my attention this month
+draft: false
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/twitter_logo.PNG
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+library(twitterwidget)
+library(knitr)
+
+```
+
+
+
+## Connected papers
+
+
+```{r twitter 0, layout="l-body"}
+
+twitterwidget('1268282414402613249')
+
+```
+
+
+
+##  Nikon webinar July 15th 
+
+Operating an Imaging Core Facility During a Pandemic
+
+```{r twitter 1, layout="l-body"}
+
+twitterwidget('1275476089960304643')
+
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+##  Super-resolution optical fluctuation imaging
+
+SOFI application note from Photometrics
+
+```{r twitter 2, layout="l-body"}
+
+twitterwidget('1275783624969932800')
+
+```
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+##  Super resolution cheat sheet
+
+Link to J Cell Science poster by Henriques and Leterrier labs 'Cell biologists guide to super resolution microscopy'
+
+```{r twitter 3, layout="l-body"}
+
+twitterwidget('1275178839333842951')
+
+```
+
+
+##  Lego microscope
+
+```{r twitter 4, layout="l-body"}
+
+twitterwidget('1267374722280554498')
+
+```
+<br>
+<br>
+<br>
+
+
+
+
+
+##  Refractive index
+
+
+```{r twitter 5, layout="l-body"}
+
+twitterwidget('1267617289987174401')
+
+```
+<br>
+<br>
+<br>
+
+
+
+
+
+##  Nikon N-SIM-S imaging of endoplasmic reticulum
+
+
+```{r twitter 6, layout="l-body"}
+
+twitterwidget('1277660055295471618')
+
+```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
