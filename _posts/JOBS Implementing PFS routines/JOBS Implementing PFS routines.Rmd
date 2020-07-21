@@ -5,7 +5,7 @@ categories:
   - JOBs
 description: |
   The Perfect Focus System (PFS) maintains the distance between the objective and the sample using real-time optical correction to keep the sample in focus. This post provides some detail on how to implement it within time-lapse and multi XY position imaging experiments using JOBs. 
-draft: false
+draft: FALSE
 author:
   - name: Mark Rigby 
     affiliation: Nikon Insturments UK
