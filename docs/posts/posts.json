@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/Triggered acquisition guide/",
+    "title": "Triggered acquisition in NIS-Elements",
+    "description": "Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-21",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2020-07-21T11:47:21+01:00",
+    "input_file": "Triggered-acquisition.utf8.md"
+  },
+  {
     "path": "posts/202006 paper roundup/",
     "title": "Paper roundup June 2020",
     "description": "Paper round up on the theme of microscopy advances this month almost entirely on SMLM techniques",

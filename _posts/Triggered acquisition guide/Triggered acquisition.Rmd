@@ -1,10 +1,22 @@
 ---
 title: "Triggered acquisition in NIS-Elements"
+categories:
+  - NIS-Elements
+  - JOBs
+description: |
+  Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.
+draft: false
 author:
-- name: Mark Rigby
-  affiliation: Nikon Instruments UK
-date: "`r format(Sys.time(), '%d %B %Y')`"
-output: html_document
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/preview.png
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +28,7 @@ setwd("C:/Users/rigby/Documents/Blog/")
 
 <br>
 
-Triggered Acquisition in NIS-Elements allows the user to acquire images where some actions during the acquisition are controlled solely by hardware (TTL or analog signals) without the need for software interference and motherboard processing that can introduce delays. 
+Triggered Acquisition in NIS-Elements allows the user to acquire images where some actions during the acquisition are controlled solely by hardware  without the need for software interference and motherboard processing that can introduce delays. 
 
 Instances when triggered acquisition will be useful:
 
@@ -26,7 +38,7 @@ Instances when triggered acquisition will be useful:
  * Piezo Z - where a camera triggers the piezo Z stage to move over the specified range.
 
 
- * Multi-excitation + Piezo Z - a combination of the above mentioned applications, where a camera triggers both the Piezo Z stage and the wavelength switcher.
+ * Multi wavelength excitation + Piezo Z - a combination of the above mentioned applications, where a camera triggers both the Piezo Z stage and the wavelength switcher.
 
 
 In practice NIS-Elements tells the camera to begin acquisition, the camera then takes an image, and at the same time sends a signal to the NiDAQ card in the PC, that via a breakout box tells the LED to turn on, the Piezo to move, and the filter wheel to change position, without communicating back to NIS-Elements.
@@ -42,9 +54,9 @@ Typically users can expect to have a large increase in speed of acquisition. The
 
 - White LED and changing the filter turret cubes = 34 seconds
 - Multi-wavelength LED and static quad band filter cube = 25 seconds
-- Triggered Multi-wavelength LED and static quad band filter cube = 1 second
+- Triggered multi-wavelength LED and static quad band filter cube = 1 second
 
-Another advantage is that since you are using the NiDAQ timing rather than the PC timing, you have more precision over when the images are acquired.
+Another advantage is that since you are using the NiDAQ timing rather than the PC timing, the user will have more precise information on when the images were acquired.
 
 
 <br>
@@ -90,7 +102,7 @@ There are two ways to create an optical configuration containing a triggered-acq
 
 
 
-### Using the Triggered Acquisition Panel
+### 1. Using the Triggered Acquisition Panel
 
 <br>
 
@@ -106,7 +118,7 @@ There are two ways to create an optical configuration containing a triggered-acq
 
 
 
-### Using the Optical Configurations Window
+### 2. Using the Optical Configurations Window
 
 <br>
 
@@ -132,3 +144,13 @@ There are two ways to create an optical configuration containing a triggered-acq
 
 
 With the second option of Merging to TA, please check the different Channels and Lines are what you are expecting in the Triggered Acquisition pad.
+
+
+
+
+
+## Acknowledgments {.appendix}
+
+
+The help file in NIS-Elements provided the basis of much that was written. 
+

@@ -12,7 +12,17 @@
       <link>https://markrigby.github.io/microscopy-threads/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Triggered acquisition in NIS-Elements</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Triggered acquisition guide</link>
+      <description>Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.</description>
+      <category>NIS-Elements</category>
+      <category>JOBs</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Triggered acquisition guide</guid>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Paper roundup June 2020</title>
       <dc:creator>Mark Rigby</dc:creator>
