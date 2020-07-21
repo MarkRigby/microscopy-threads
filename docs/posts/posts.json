@@ -1,23 +1,5 @@
 [
   {
-    "path": "posts/202006 twitter roundup/",
-    "title": "Twitter roundup June 2020",
-    "description": "Microsocpy based twitter posts that have caught my attention this month",
-    "author": [
-      {
-        "name": "Mark Rigby",
-        "url": {}
-      }
-    ],
-    "date": "2020-07-06",
-    "categories": [
-      "Twitter posts"
-    ],
-    "preview": {},
-    "last_modified": "2020-07-06T12:48:56+01:00",
-    "input_file": "202006-twitter-roundup.utf8.md"
-  },
-  {
     "path": "posts/202006 paper roundup/",
     "title": "Paper roundup June 2020",
     "description": "Paper round up on the theme of microscopy advances this month almost entirely on SMLM techniques",
@@ -32,10 +14,30 @@
       "Recent papers & pre-prints"
     ],
     "preview": "posts/202006 paper roundup/images/bioRxiv.png",
-    "last_modified": "2020-07-06T12:52:18+01:00",
-    "input_file": "202006-paper-roundup.utf8.md",
+    "last_modified": "2020-07-06T12:52:19+01:00",
+    "input_file": {},
     "preview_width": 628,
     "preview_height": 254
+  },
+  {
+    "path": "posts/202006 twitter roundup/",
+    "title": "Twitter roundup June 2020",
+    "description": "Microsocpy based twitter posts that have caught my attention this month",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-06",
+    "categories": [
+      "Twitter posts"
+    ],
+    "preview": "posts/202006 twitter roundup/images/twitter_logo.PNG",
+    "last_modified": "2020-07-06T12:48:57+01:00",
+    "input_file": {},
+    "preview_width": 475,
+    "preview_height": 300
   },
   {
     "path": "posts/Mizar Tilt/",
