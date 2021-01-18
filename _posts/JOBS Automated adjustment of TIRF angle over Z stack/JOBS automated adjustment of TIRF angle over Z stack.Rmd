@@ -1,0 +1,33 @@
+---
+title: "JOBS: Automatic adjustment of TIRF angle over Z-stack"
+categories:
+  - NIS-Elements
+  - JOBs
+description: |
+  A method for moving the angle of the TIRF illuminator as the Z-stack transitions from top to bottom.  TIRF angles are set by the user at the top and bottom of the z-stack before acquisition, and the JOB lineraly interpoloates the TIRF angle for each z step.
+
+ 
+draft: FALSE
+author:
+  - name: Mark Rigby 
+    affiliation: Nikon Insturments UK
+    position: Advanced Imaging Specialist
+    affiliation_url: https://www.microscope.healthcare.nikon.com/
+preview: images/preview.png
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+TIRF acquisitions typically need higher TIRF angles at z positions close to the coverslip for maximal signal-to-noise, but for z positions further away from the coverslip often
+
+
+
+

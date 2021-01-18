@@ -11,7 +11,7 @@ author:
     affiliation: Nikon Insturments UK
     position: Advanced Imaging Specialist
     affiliation_url: https://www.microscope.healthcare.nikon.com/
-preview: images/preview.png
+preview: images/preview.PNG
 date: "`r Sys.Date()`"
 output:
   distill::distill_article:
