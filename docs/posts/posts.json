@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/JOBS Automated adjustment of TIRF angle over Z stack/",
+    "title": "JOBS: Automatic adjustment of TIRF angle over Z-stack",
+    "description": "A method for moving the angle of the TIRF illuminator as the Z-stack transitions from top to bottom.  TIRF angles are set by the user at the top and bottom of the z-stack before acquisition, and the JOB lineraly interpoloates the TIRF angle for each z step.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-01-18",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2021-01-18T17:30:38+00:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/Triggered acquisition guide/",
     "title": "Triggered acquisition in NIS-Elements",
     "description": "Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.",
@@ -14,9 +33,11 @@
       "NIS-Elements",
       "JOBs"
     ],
-    "preview": {},
+    "preview": "posts/Triggered acquisition guide/images/preview.png",
     "last_modified": "2020-07-21T11:47:21+01:00",
-    "input_file": {}
+    "input_file": {},
+    "preview_width": 455,
+    "preview_height": 315
   },
   {
     "path": "posts/202006 paper roundup/",
