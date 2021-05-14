@@ -1,5 +1,42 @@
 [
   {
+    "path": "posts/NIS-Elements Spectral imaging on nikon confocals/",
+    "title": "Spectral unmixing using NIS-Elements",
+    "description": "How to view and spectrally unmix images in NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-05-14",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": {},
+    "last_modified": "2021-05-14T10:37:01+01:00",
+    "input_file": "Spectral-Imaging-on-Nikon-Confocals.utf8.md"
+  },
+  {
+    "path": "posts/JOBS Implementing PFS routines/",
+    "title": "JOBS: Implementing Perfect focus routines",
+    "description": "The Perfect Focus System (PFS) maintains the distance between the objective and the sample using real-time optical correction to keep the sample in focus. This post provides some detail on how to implement it within time-lapse and multi XY position imaging experiments using JOBs.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-10",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2021-02-10T17:03:53+00:00",
+    "input_file": "JOBS-Implementing-PFS-routines.utf8.md"
+  },
+  {
     "path": "posts/JOBS Automated adjustment of TIRF angle over Z stack/",
     "title": "JOBS: Automatic adjustment of TIRF angle over Z-stack",
     "description": "A method for moving the angle of the TIRF illuminator as the Z-stack transitions from top to bottom.  TIRF angles are set by the user at the top and bottom of the z-stack before acquisition, and the JOB lineraly interpoloates the TIRF angle for each z step.",

@@ -12,7 +12,26 @@
       <link>https://markrigby.github.io/microscopy-threads/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 18 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Spectral unmixing using NIS-Elements</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Spectral imaging on nikon confocals</link>
+      <description>How to view and spectrally unmix images in NIS-Elements</description>
+      <category>NIS-Elements</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Spectral imaging on nikon confocals</guid>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JOBS: Implementing Perfect focus routines</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/JOBS Implementing PFS routines</link>
+      <description>The Perfect Focus System (PFS) maintains the distance between the objective and the sample using real-time optical correction to keep the sample in focus. This post provides some detail on how to implement it within time-lapse and multi XY position imaging experiments using JOBs.</description>
+      <category>NIS-Elements</category>
+      <category>JOBs</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/JOBS Implementing PFS routines</guid>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>JOBS: Automatic adjustment of TIRF angle over Z-stack</title>
       <dc:creator>Mark Rigby</dc:creator>
