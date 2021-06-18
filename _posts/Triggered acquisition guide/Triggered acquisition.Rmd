@@ -129,8 +129,6 @@ There are two ways to create an optical configuration containing a triggered-acq
 
 
 
-**Caution** The Enable Triggering check box in the Triggered Acquisition window must not be selected.
-
 
 **Caution** If the configurations contain also settings of devices which cannot be triggered (e.g. certain filter wheel models), the acquisition sequence will be created anyway, but the state of the filter wheel defined in the first optical configuration will be used throughout the whole sequence.  
 
