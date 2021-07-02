@@ -1,0 +1,334 @@
+[
+  {
+    "path": "posts/Triggered acquisition guide/",
+    "title": "Triggered acquisition in NIS-Elements",
+    "description": "Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-06-18",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": "posts/Triggered acquisition guide/images/preview.PNG",
+    "last_modified": "2021-06-18T17:18:35+01:00",
+    "input_file": "Triggered-acquisition.utf8.md",
+    "preview_width": 455,
+    "preview_height": 315
+  },
+  {
+    "path": "posts/NIS-Elements Spectral imaging on nikon confocals/",
+    "title": "Spectral unmixing using NIS-Elements",
+    "description": "How to view and spectrally unmix images in NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-05-14",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": {},
+    "last_modified": "2021-05-14T10:37:01+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/JOBS Implementing PFS routines/",
+    "title": "JOBS: Implementing Perfect focus routines",
+    "description": "The Perfect Focus System (PFS) maintains the distance between the objective and the sample using real-time optical correction to keep the sample in focus. This post provides some detail on how to implement it within time-lapse and multi XY position imaging experiments using JOBs.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-10",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2021-02-10T17:03:53+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/JOBS Automated adjustment of TIRF angle over Z stack/",
+    "title": "JOBS: Automatic adjustment of TIRF angle over Z-stack",
+    "description": "A method for moving the angle of the TIRF illuminator as the Z-stack transitions from top to bottom.  TIRF angles are set by the user at the top and bottom of the z-stack before acquisition, and the JOB lineraly interpoloates the TIRF angle for each z step.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-01-18",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2021-01-18T17:30:38+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/202006 paper roundup/",
+    "title": "Paper roundup June 2020",
+    "description": "Paper round up on the theme of microscopy advances this month almost entirely on SMLM techniques",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-06",
+    "categories": [
+      "Recent papers & pre-prints"
+    ],
+    "preview": "posts/202006 paper roundup/images/bioRxiv.png",
+    "last_modified": "2020-07-06T12:52:19+01:00",
+    "input_file": {},
+    "preview_width": 628,
+    "preview_height": 254
+  },
+  {
+    "path": "posts/202006 twitter roundup/",
+    "title": "Twitter roundup June 2020",
+    "description": "Microsocpy based twitter posts that have caught my attention this month",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-06",
+    "categories": [
+      "Twitter posts"
+    ],
+    "preview": "posts/202006 twitter roundup/images/twitter_logo.PNG",
+    "last_modified": "2020-07-06T12:48:57+01:00",
+    "input_file": {},
+    "preview_width": 475,
+    "preview_height": 300
+  },
+  {
+    "path": "posts/Mizar Tilt/",
+    "title": "Mizar Tilt lightsheet microscope",
+    "description": "Mizar tilt brings light sheet microscopy to any inverted  microscope",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-17",
+    "categories": [
+      "Lightsheet"
+    ],
+    "preview": "posts/Mizar Tilt/images/preview.png",
+    "last_modified": "2020-06-17T12:59:29+01:00",
+    "input_file": {},
+    "preview_width": 1783,
+    "preview_height": 1047
+  },
+  {
+    "path": "posts/JOB for specifying break during acquiisition/",
+    "title": "JOB for specifying break during acquisition",
+    "description": "The JOBs module in NIS-Elements is a versitile software for generating bespoke imaging experiments. Here we show how to include a user specified break in the acquisition so that solutions can be added manually to the sample. The user then presses Ok for the aquisition to continue.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": "posts/JOB for specifying break during acquiisition/images/preview.png",
+    "last_modified": "2020-06-15T19:14:29+01:00",
+    "input_file": {},
+    "preview_width": 483,
+    "preview_height": 127
+  },
+  {
+    "path": "posts/NIS-Elements Ti2 pad alternative/",
+    "title": "Alternatives to the Ti/Ti2 pad in NIS Elements",
+    "description": "The Ti2 pad can take up a lot of screen are in NIS-Elements, and users generally only use it to select the objective and turn on the perfect focus system. Here we show an alternative that provides more useful information to the user, and takes up less screen space.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements Ti2 pad alternative/images/system_information.png",
+    "last_modified": "2020-06-15T13:20:34+01:00",
+    "input_file": {},
+    "preview_width": 582,
+    "preview_height": 277
+  },
+  {
+    "path": "posts/Denoise.ai_NIS.ai/",
+    "title": "Denoise.ai",
+    "description": "New tool within NIS-Elements that applies a trained convoluted neural network to your images for the purpose of removing shot noise.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-09",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/Denoise.ai_NIS.ai/images/denoise.gif",
+    "last_modified": "2020-06-09T12:12:58+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/202005 paper roundup/",
+    "title": "Paper roundup May 2020",
+    "description": "Monthly paper round up on the theme of microscopy advances",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-08",
+    "categories": [
+      "Recent papers & pre-prints"
+    ],
+    "preview": "posts/202005 paper roundup/images/bioRxiv.png",
+    "last_modified": "2020-06-08T20:05:56+01:00",
+    "input_file": {},
+    "preview_width": 628,
+    "preview_height": 254
+  },
+  {
+    "path": "posts/Multi-colour STORM_SMLM/",
+    "title": "Multi-colour STORM/SMLM experiments",
+    "description": "Multi-colour STORM experiments are not trivial. Using anything other than Alexa 647 is difficult, and different dyes require careful consideration to select appropriate fluorophores and buffer conditions.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-08",
+    "categories": [
+      "SMLM"
+    ],
+    "preview": "posts/Multi-colour STORM_SMLM/images/multi-colour_SMLM_preview.PNG",
+    "last_modified": "2020-06-08T17:31:41+01:00",
+    "input_file": {},
+    "preview_width": 602,
+    "preview_height": 406
+  },
+  {
+    "path": "posts/NIS-Elements stitching images/",
+    "title": "Large image acquisition and stitching within NIS-Elements",
+    "description": "Sitching images is not an easy task, recent improvements in the optimal path algorithm in NIS-Elements has markedly reduced artefacts",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-08",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements stitching images/images/preview.PNG",
+    "last_modified": "2020-06-08T11:42:44+01:00",
+    "input_file": {},
+    "preview_width": 1012,
+    "preview_height": 627
+  },
+  {
+    "path": "posts/NIS-Elements tips and tricks 1/",
+    "title": "Tips and tricks for NIS-Elements #1",
+    "description": "Some suggestions to improve the user experience within NIS-Elements.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-08",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements tips and tricks 1/images/preview.png",
+    "last_modified": "2020-06-08T12:12:29+01:00",
+    "input_file": {},
+    "preview_width": 742,
+    "preview_height": 429
+  },
+  {
+    "path": "posts/NIS-Elements tips and tricks 2 Options/",
+    "title": "NIS-Elements tips and tricks #2 - Options",
+    "description": "How best to configure the options menu within NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-06-02",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": "posts/NIS-Elements tips and tricks 2 Options/images/preview.PNG",
+    "last_modified": "2020-06-02T09:29:03+01:00",
+    "input_file": {},
+    "preview_width": 709,
+    "preview_height": 364
+  },
+  {
+    "path": "posts/202005 twitter roundup/",
+    "title": "May 2020 Twitter roundup",
+    "description": "Microsocpy based twitter posts that have caught my attention this month",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-28",
+    "categories": [
+      "Twitter posts"
+    ],
+    "preview": "posts/202005 twitter roundup/images/twitter_logo.PNG",
+    "last_modified": "2020-05-28T13:06:12+01:00",
+    "input_file": {},
+    "preview_width": 475,
+    "preview_height": 300
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to microscopy-threads",
+    "description": "Welcome to our blog, microscopy-threads. The intention is to build a repository for advances in light microscopy, as well as some acquisition and analysis routines for NIS-Elements that Nikon microscope users may find helpful.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2020-05-18",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-05-18T15:41:27+01:00",
+    "input_file": {}
+  }
+]
