@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/Dynamically updated metadata/",
+    "title": "JOBS: Creating dynamically updated metadata",
+    "description": "NIS-Elements and JOBs record a vast amount of meta data as standard, but there are occassions where additional meta data is required. Here I describe a way of creating meta data that can dynamically change for each image depending on status of a device on the microscope.",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-07-07",
+    "categories": [
+      "NIS-Elements",
+      "JOBs"
+    ],
+    "preview": {},
+    "last_modified": "2021-07-07T12:11:49+01:00",
+    "input_file": "Dynamically-updated-metadata.utf8.md"
+  },
+  {
     "path": "posts/Triggered acquisition guide/",
     "title": "Triggered acquisition in NIS-Elements",
     "description": "Triggered acquisition within NIS-Elements acquires images without the need for software communication to markedly increase speed of multi-colour and z-stack imaging experiments.",

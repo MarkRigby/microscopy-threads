@@ -12,7 +12,17 @@
       <link>https://markrigby.github.io/microscopy-threads/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>JOBS: Creating dynamically updated metadata</title>
+      <dc:creator>Mark Rigby</dc:creator>
+      <link>https://markrigby.github.io/microscopy-threads/posts/Dynamically updated metadata</link>
+      <description>NIS-Elements and JOBs record a vast amount of meta data as standard, but there are occassions where additional meta data is required. Here I describe a way of creating meta data that can dynamically change for each image depending on status of a device on the microscope.</description>
+      <category>NIS-Elements</category>
+      <category>JOBs</category>
+      <guid>https://markrigby.github.io/microscopy-threads/posts/Dynamically updated metadata</guid>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Triggered acquisition in NIS-Elements</title>
       <dc:creator>Mark Rigby</dc:creator>
