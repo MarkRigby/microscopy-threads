@@ -1,5 +1,23 @@
 [
   {
+    "path": "posts/NIS-Elements Ratio View/",
+    "title": "NIS-Elements: Creating a ratio view",
+    "description": "A how-to-guide for creating a ratio view of two fluorophores in NIS-Elements",
+    "author": [
+      {
+        "name": "Mark Rigby",
+        "url": {}
+      }
+    ],
+    "date": "2021-08-16",
+    "categories": [
+      "NIS-Elements"
+    ],
+    "preview": {},
+    "last_modified": "2021-08-16T12:03:01+01:00",
+    "input_file": "NIS-Elements-Ratio-View.utf8.md"
+  },
+  {
     "path": "posts/Dynamically updated metadata/",
     "title": "JOBS: Creating dynamically updated metadata",
     "description": "NIS-Elements and JOBs record a vast amount of meta data as standard, but there are occassions where additional meta data is required. Here I describe a way of creating meta data that can dynamically change for each image depending on status of a device on the microscope.",
