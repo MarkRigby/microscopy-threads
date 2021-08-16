@@ -17,10 +17,11 @@
       <title>NIS-Elements: Creating a ratio view</title>
       <dc:creator>Mark Rigby</dc:creator>
       <link>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ratio View</link>
-      <description>A how-to-guide for creating a ratio view of two fluorophores in NIS-Elements</description>
+      <description>A how-to-guide for creating a ratio image of two fluorophores in NIS-Elements</description>
       <category>NIS-Elements</category>
       <guid>https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ratio View</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://markrigby.github.io/microscopy-threads/posts/NIS-Elements Ratio View/images/Thumbnail.PNG" medium="image" type="image/png" width="759" height="535"/>
     </item>
     <item>
       <title>JOBS: Creating dynamically updated metadata</title>
